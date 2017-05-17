@@ -43,6 +43,12 @@
   <!--  <script id="facebook-jssdk" src="/ig.js"></script>-->
 
   <script>
+    if (window.location.hash.indexOf("access_token=") >= 0) {
+      console.log(window.location.hash);
+      if (window.opener && window.opener.instagramAuth) {
+        window.opener.instagramAuth(window.location.hash.replace("access_token=", ""));
+      }
+    }
     /*
       (function (i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
@@ -77,6 +83,6 @@
 
   <script src="http://bernii.github.io/gauge.js/dist/gauge.min.js"></script>
 
-<script type="text/javascript" src="/vendor-71f45cc6a5c36a4d2343.js"></script><script type="text/javascript" src="/bundle-b9c0f1f301de69f7b647.js"></script></body>
+<script type="text/javascript" src="/vendor-f1b133435a547799cde4.js"></script><script type="text/javascript" src="/bundle-edafe1167a75860d67f8.js"></script></body>
 
 </html>
