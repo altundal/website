@@ -46,8 +46,27 @@
     if (window.location.hash.indexOf("access_token=") >= 0) {
       console.log(window.location.hash);
       if (window.opener && window.opener.instagramAuth) {
-        window.opener.instagramAuth(window.location.hash.replace("access_token=", ""));
+        window.opener.instagramAuth(window.location.hash.replace("#access_token=", ""));
       }
+    }
+
+    var openedWindow;
+
+    function instagramAuth(token) {
+      console.log(token);
+      if (openedWindow) {
+        openedWindow.close();
+      }
+      var event = new MouseEvent('click', {
+        'view': window,
+        'bubbles': true,
+        'cancelable': true
+      });
+
+      var cb = document.getElementById('testt');
+      cb.value = token;
+      console.log(document.getElementById('insbtn').dispatchEvent(event, token));
+
     }
     /*
       (function (i, s, o, g, r, a, m) {
@@ -83,6 +102,6 @@
 
   <script src="http://bernii.github.io/gauge.js/dist/gauge.min.js"></script>
 
-<script type="text/javascript" src="/vendor-de2294dc3c10377e1611.js"></script><script type="text/javascript" src="/bundle-9e3fbdcc8986ab987db5.js"></script></body>
+<script type="text/javascript" src="/vendor-906c1cd5ee77d2cba47c.js"></script><script type="text/javascript" src="/bundle-d4f224401b65ad07f4b8.js"></script></body>
 
 </html>
