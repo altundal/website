@@ -12,7 +12,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">-->
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -39,34 +39,26 @@
 <body>
   <div id="app"></div>
 
-  <script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js"></script>
+  <script id="facebook-jssdk" async src="//connect.facebook.net/en_US/all.js"></script>
   <!--  <script id="facebook-jssdk" src="/ig.js"></script>-->
 
   <script>
     if (window.location.hash.indexOf("access_token=") >= 0) {
-      console.log(window.location.hash);
       if (window.opener && window.opener.instagramAuth) {
         window.opener.instagramAuth(window.location.hash.replace("#access_token=", ""));
       }
     }
 
     var openedWindow;
-
     function instagramAuth(token) {
-      console.log(token);
       if (openedWindow) {
         openedWindow.close();
       }
-      var event = new MouseEvent('click', {
-        'view': window,
-        'bubbles': true,
-        'cancelable': true
-      });
 
       var cb = document.getElementById('testt');
       cb.value = token;
-      console.log(document.getElementById('insbtn').dispatchEvent(event, token));
 
+      document.getElementById('insbtn').click();
     }
     /*
       (function (i, s, o, g, r, a, m) {
@@ -100,8 +92,8 @@
     */
   </script>
 
-  <script src="http://bernii.github.io/gauge.js/dist/gauge.min.js"></script>
+  <script src="/gauge.min.js"></script>
 
-<script type="text/javascript" src="/vendor-24ac2ae14c6bc6e26263.js"></script><script type="text/javascript" src="/bundle-e458aee06a9f9aed1e55.js"></script></body>
+<script type="text/javascript" src="/vendor-94c58c2505d636fd182a.js"></script><script type="text/javascript" src="/bundle-b91bada9a683562b1a67.js"></script></body>
 
 </html>
