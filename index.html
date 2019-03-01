@@ -1,99 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burak Altundal</title>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" />
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Like o Meter</title>
-
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">-->
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/manifest.json">
-  <!--<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"> -->
-  <meta name="theme-color" content="#ffffff">
-  <style>
-    html,
-    body,
-    #app {
-      height: 100%;
-      margin: 0
-    }
-
-    *,
-    *:before,
-    *:after {
-      box-sizing: border-box;
-    }
-  </style>
-</head>
-
-<body>
-  <div id="app"></div>
-
-  <script id="facebook-jssdk" async src="//connect.facebook.net/en_US/all.js"></script>
-  <!--  <script id="facebook-jssdk" src="/ig.js"></script>-->
-
-  <script>
-    if (window.location.hash.indexOf("access_token=") >= 0) {
-      if (window.opener && window.opener.instagramAuth) {
-        window.opener.instagramAuth(window.location.hash.replace("#access_token=", ""));
-      }
-    }
-
-    var openedWindow;
-    function instagramAuth(token) {
-      if (openedWindow) {
-        openedWindow.close();
+    <link rel="manifest" href="/manifest.json" />
+    <!--<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"> -->
+    <meta name="theme-color" content="#ffffff" />
+    <style>
+      html,
+      body,
+      #app {
+        height: 100%;
+        margin: 0;
       }
 
-      var cb = document.getElementById('testt');
-      cb.value = token;
+      *,
+      *:before,
+      *:after {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
 
-      document.getElementById('insbtn').click();
-    }
-    /*
-      (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-61180343-1', 'auto', 'routerSite');
-    ga('routerSite.send', 'pageview');
-    */
-
-    window.fbAsyncInit = function () {
-      FB.init({
-        appId: "749679035174071",
-        channelUrl: '/channel.htm',
-        status: true,
-        cookie: true,
-        xfbml: true
-      });
-    };
-
-/*
-    if (window.IG) {
-      IG.init({
-        client_id: '47057f2bf46c4010a0bd9845f0d728f5',
-        check_status: true,
-        cookie: true
-      });
-    }
-    */
-  </script>
-
-  <script src="/gauge.min.js"></script>
-
-<script type="text/javascript" src="/vendor-3dc3d2db2d2dabeda992.js"></script><script type="text/javascript" src="/bundle-021b54cd18f2e9c1b6fe.js"></script></body>
-
+  <body>
+    <p>Me, myself and</p>
+  </body>
 </html>
