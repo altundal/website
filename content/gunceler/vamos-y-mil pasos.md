@@ -18,7 +18,7 @@ Aynı şeyleri farklı biçimlerde denemenin vakti geldi sanırım. O kadar ayn�
 
 “Bahar
 
-Meltem bacaklarımdan yukarıya doğru içimi okşuyor. Eteğimin ucu havalanıyor içimle birlikte. Bahar. O olsa ilkyaz derdi herhalde. Burnuma karpuz kokusu geliyor çiçeklerinki ile birlikte. Serin, ferah, insanın içini serinleten. 
+Meltem bacaklarımdan yukarıya doğru içimi okşuyor. Eteğimin ucu havalanıyor içimle birlikte. Bahar. O olsa ilkyaz derdi herhalde. Burnuma karpuz kokusu geliyor çiçeklerinki ile birlikte. Ferah, insanın içini serinleten. 
 
 Yanaklarımın biraz kızarık olduğuna, parmaklarımın ucunda durduğuma, ayaklarımın yere sıkı sıkı bastığına eminim. Kuşlar nasıl salonda oturur gibi oturuyorlarsa bir telin üstünde. İçim içime öyle sığıyor. Sığmıyor da. Güzelliğin verdiği bir garip tedirginlik. Ürkütmüyor, ürpertiyor. Bahar. O’na ilkyaz. Üşütmeyen ama ürperten biraz.  
 ”
