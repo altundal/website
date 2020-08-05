@@ -12,7 +12,7 @@ etiket: ["ilk yaz", "mil pasos"]
 >*‘Oysa bütün yaşamlar bitti  
 İlkyazlar ve bütün başlangıçlar’\**
 
-Aynı şeyleri farklı biçimlerde denemenin vakti geldi sanırım. O kadar aynı şeyi yapmak gibi bir his ki o kadar farklı hissettiriyor. Filmlerdeki gibi garaja girip eski arabanın üzerindeki örtüyü kaldırıp şöyle bir bakıyorum. Çalışır mı acaba diye düşünüyorum. Araba eski değil. Yıllardır hep aynı yerde durduğu doğru ama hiç aynı araba olmadı. Eski bir yenilik, yeni bir eskilik. Her ikisi de sevindiriyor beni.
+Aynı şeyleri farklı biçimlerde denemenin vakti geldi sanırım. Ne kadar aynı şeyi yapmak gibi bir his. Bir o kadar da farklı hissettiriyor. Filmlerdeki gibi garaja girip eski arabanın üzerindeki örtüyü kaldırıp şöyle bir bakıyorum. Çalışır mı acaba diye düşünüyorum. Araba eski değil. Yıllardır hep aynı yerde durduğu doğru ama hiç aynı araba olmadı. Eski bir yenilik, yeni bir eskilik. Her ikisi de sevindiriyor beni.
 
 <!--more-->
 
