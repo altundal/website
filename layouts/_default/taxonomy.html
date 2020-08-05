@@ -1,0 +1,25 @@
+{{ define "content" }}
+<!-- Page that displays after clicking on a post's tag -->
+  <h1>"{{ .Data.Term }}" altındakiler</h1>
+  {{range .Pages}}
+    <!-- Display the posts with the tag -->
+    <article>
+            <h2>
+                <a href="{{ .Permalink }}">
+                    {{ .Title }}
+                </a>
+            </h2>
+            <div>
+                <p>{{ .Summary }}</p>
+                {{ if (and (.Site.Params.showReadMore) (.Truncated)) }}
+                
+                {{ end }}
+            </div>
+            <div class="post-footer">
+            <time>{{ .Date.Format "01/02/2006" }}</time>
+            <a class="read-more" href="{{ .RelPermalink }}">Devamını oku...</a>
+            </div> 
+        </article>
+    {{ end }}
+
+{{ end }}

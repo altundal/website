@@ -1,0 +1,23 @@
+{{ define "content" }}
+<section>
+  <ul class="posts-listing">
+    {{ range where .Site.RegularPages "Section" "posts" }}
+    <li>
+      <div class="row" id="post">
+        <div class="col-sm date-time-title post">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </div>
+        <div class="d-none d-sm-block col-sm-3 date-share">
+          <a href="{{ .Permalink }}" target="_blank">paylaş</a>
+        </div>
+      </div>
+      <div class="blog-post-content row">
+        <div class="col-sm-12">
+          {{ .Content }}
+        </div>
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

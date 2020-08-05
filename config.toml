@@ -1,0 +1,40 @@
+baseURL = "https://wwww.burakaltundal.com/"
+languageCode = "en-us"
+title = "Burak Altundal"
+theme = ""
+enableRobotsTXT = true
+paginate = 10
+summaryLength = 10
+googleAnalytics = "" 
+
+[taxonomies]
+	category = "kategori"
+  tag = "etiket"
+
+[author]
+	name = "buyucu"
+
+[params]
+  description = "büyücü"
+
+  showReadMore = true
+  email = "burak.altundal@gmail.com"
+  twitter = "baltundal"
+  instagram = "buyucu"
+
+  # Programming
+  github = "altundal"
+	mainSections = ["gunceler","yazilar"]
+
+# Menu links along the sidebar navigation.
+[[menu.main]]
+	identifier = "kim"
+	name = "Kim?"
+	url = "/kim/"
+	weight = 3
+
+[[menu.main]]
+	identifier = "kategori"
+	name = "Kategoriler"
+	url = "/kategori/"
+	weight = 1
