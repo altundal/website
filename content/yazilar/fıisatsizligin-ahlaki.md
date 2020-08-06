@@ -42,7 +42,7 @@ Acaba yapmadıklarımızın ne kadarını yapma fırsatımız olsa yaparız? Biz
 
 NOT: Goldman’ın anketindeki ikinci soru da hayli ilginç, başka bir yazının konusu.
 
-* “Hilekar Ama Samimiler” Sayfa 144, Sel Yayınları, Hikaye Avcıları, Eduardo Galeano
+\* “Hilekar Ama Samimiler” Sayfa 144, Sel Yayınları, Hikaye Avcıları, Eduardo Galeano
 
 ** 14 Nisan 1997’de Sports Illustrated arşivi, hayli ilginç başka şeyler de var.
 

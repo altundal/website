@@ -16,6 +16,7 @@ publishDir = "docs"
 	name = "buyucu"
 
 [params]
+  author = "Burak Altundal"
   description = "büyücü"
 
   showReadMore = true
