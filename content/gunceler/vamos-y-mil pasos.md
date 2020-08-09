@@ -2,6 +2,7 @@
 title: "Günce: Vamos y mil pasos"
 date: "2020-03-25"
 description: "Günce: Vamos y mil pasos"
+images: ["/images/eda-dereci-kirmizi.jpg"]
 kategori: ["günce"]
 etiket: ["ilk yaz", "mil pasos"]
 

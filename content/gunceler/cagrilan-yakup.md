@@ -2,6 +2,7 @@
 title: "Günce: Çağrılan Yakup"
 date: "2020-03-30"
 description: "Günce: Çağrılan Yakup"
+images: ["/images/eda-dereci-iki.jpg"]
 kategori: ["günce"]
 etiket: ["edip cansever", "çağrılmayan yakup"]
 

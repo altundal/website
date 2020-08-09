@@ -17,7 +17,9 @@ publishDir = "docs"
 
 [params]
   author = "Burak Altundal"
-  description = "büyücü"
+  description = "Burak Altundal | büyücü"
+	alias = "büyücü"
+  images = ["kertenkele.png"]
 
   showReadMore = true
   email = "burak.altundal@gmail.com"

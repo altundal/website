@@ -2,6 +2,7 @@
 title: "Günce: Daedalus'un labirenti"
 date: "2020-04-18"
 description: "Günce: Daedalus'un labirenti"
+images: ["/images/eda-dereci-pencere.jpg"]
 etiket: ["daedalus", "labirent"]
 kategori: ["günce"]
 
