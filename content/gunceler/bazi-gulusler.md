@@ -2,7 +2,7 @@
 title: "Günce: Bazı gülüşler"
 date: "2020-07-19"
 description: "Günce: Bazı gülüşler"
-images: ["/images/gulus.jpg"]
+images: ["/images/gulus.jpeg"]
 kategori: ["günce"]
 etiket: ["Bikis Bikindou", "Alda Bikindou", "gülüş"]
 
