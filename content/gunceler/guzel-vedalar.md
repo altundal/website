@@ -22,7 +22,7 @@ Vedanın güzeli olmaz diyorlar. Buna katılmıyorum. Vedalaşmak hiçbir zaman 
 
 Çiçeklerimle geldiğim yerden, başkalarının çiçekleriyle uğurlanırken içim burkuldu durdu gün boyunca. Çok da sevindim, buruk bir gülümseme. Ne güzel yaşamaklar, ne güzel vedalar. Ne güzel; bitti ama iyi ki bu insan(lar)ı tanımışımlar. 
 
-Sarıncalı***, kimi okuyan sanacak ki sana bir şey yazdım. Oysa seni yazmakla sana yazmak ne kadar farklı şeyler. Biri insanı özne diğeri hikaye(nesne) yapıyor.
+Sarıncalı***, kimi okuyan sanacak ki sana bir şey yazdım. Oysa seni yazmakla sana yazmak ne kadar farklı şeyler. Biri insanı özne diğeri hikaye(nesne) yapıyor. Farkı bilmeyenler hep sana bir şey yazdığımı düşünecek. Düşünsünler, ben güzel vedaları yazdım.
 
 
 \* Ergin Günçe, Dersimiz Aşk Çünkü, Söylemiştim  
