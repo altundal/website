@@ -14,7 +14,7 @@ etiket: ["veda", "Ergin Günçe", "sarışınlık"]
 
 >*‘Dersimiz Aşk, konular Haydutluk ve Sarışınlık’  \**
 
-Akşam üstü son kez vaktiyle seni beklediğim sokağa baktım. Motosikleti çalıştırmadan önceki an, seninle aynı zamanda çıkmışızdır belki bakışı. Sol mememin altında bir belki. Ne güzel şeyler. Bu sokağa tekrar geleceğim ama bir daha hiç böyle bakmayacağım. Bütün hikayelerin kendi zamanları, bağlamları var. O bağlamdan ve zamandan da çıkıyorum eve giderken[(bininci adım)](https://www.youtube.com/watch?v=Z1dIRjazpBw). Seninle ilgili her şey bir anımsamaya, burukluğa dönüşüyor. Buruk bir gülümsemeye dönüşmüyor. Sokaktan geriye sadece kendi hissettiklerimin güzelliği kaldı. Keşke seni de güzel hatırlayabilseydim. 
+Akşam üstü son kez vaktiyle seni beklediğim sokağa baktım. Motosikleti çalıştırmadan önceki an, seninle aynı zamanda çıkmışızdır belki. Sol mememin altında bir belki. Ne güzel şeyler. Bu sokağa tekrar geleceğim ama bir daha hiç böyle bakmayacağım. Bütün hikayelerin kendi zamanları, bağlamları var. O bağlamdan ve zamandan da çıkıyorum eve giderken[(bininci adım)](https://www.youtube.com/watch?v=Z1dIRjazpBw). Seninle ilgili her şey bir anımsamaya, burukluğa dönüşüyor. Buruk bir gülümsemeye dönüşmüyor. Sokaktan geriye sadece kendi hissettiklerimin güzelliği kaldı. Keşke seni de güzel hatırlayabilseydim. 
 
 <!--more-->
 
