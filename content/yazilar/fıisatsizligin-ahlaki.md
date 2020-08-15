@@ -1,6 +1,7 @@
 ---
 title: "Fırsatsızlığın ahlakı"
 date: "2018-02-05"
+when: "05.02.2018"
 description: "Fırsatsızlığın ahlakı"
 etiket: [
     "eski yazılar",

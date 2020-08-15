@@ -1,6 +1,8 @@
 ---
 title: "Günce: Bazı gülüşler"
 date: "2020-07-19"
+when: "19.07.2020"
+where: "Tavak"
 description: "Günce: Bazı gülüşler"
 images: ["/images/gulus.jpeg"]
 kategori: ["günce"]
@@ -23,4 +25,3 @@ Bu gülüşlerin olduğu fotoğraflarda hep tek kişi olur. Çünkü gülüşün
 
 
 \* Edip Cansever, Gül dönüyor avucumda  
-19.07.2020, Tavak

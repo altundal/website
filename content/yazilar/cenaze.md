@@ -1,6 +1,7 @@
 ---
 title: "Cenaze"
 date: "2018-07-11"
+when: "11.07.2018"
 description: "Cenaze."
 etiket: [
     "eski yazılar",

@@ -1,6 +1,8 @@
 ---
 title: "Günce: Çağrılan Yakup"
 date: "2020-03-30"
+when: "30.03.2020"
+where: "Eyüp"
 description: "Günce: Çağrılan Yakup"
 images: ["/images/eda-dereci-iki.jpg"]
 kategori: ["günce"]
@@ -28,4 +30,3 @@ Gel. Bağışlayamasak da tanıyalım birbirimizi.
 
 
 \* Edip Cansever, Çağrılmayan Yakup  
-30.03.2020, Eyüp

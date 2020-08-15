@@ -6,6 +6,8 @@
       <div class="row" id="post">
         <div class="col-sm date-time-title post">
           <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <i class="when">{{ .Params.When }}{{ if .Params.Where }}, {{ .Params.Where }}
+            {{ end }}</i>
         </div>
         <div class="d-none d-sm-block col-sm-3 date-share">
           <a href="{{ .Permalink }}" target="_blank">paylaş</a>

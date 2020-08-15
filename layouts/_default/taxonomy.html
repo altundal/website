@@ -8,6 +8,8 @@
                 <a href="{{ .Permalink }}">
                     {{ .Title }}
                 </a>
+                <i class="when">{{ .Params.When }}{{ if .Params.Where }}, {{ .Params.Where }}
+                    {{ end }}</i>
             </h2>
             <div>
                 <p>{{ .Summary }}</p>

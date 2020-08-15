@@ -1,6 +1,7 @@
 ---
 title: "Ersin ve kimi çirkinlikler"
 date: "2018-08-30"
+when: "30.08.2018"
 description: "Ersin ve kimi çirkinlikler"
 etiket: [
     "eski yazılar",

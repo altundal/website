@@ -1,6 +1,8 @@
 ---
 title: "Keşke yazabilsem…"
 date: "2020-01-10"
+when: "01.01.2014"
+where: "Leicester"
 description: "Keşke yazabilsem…"
 etiket: [
     "eski yazılar",
@@ -31,37 +33,33 @@ Nerden geldi bunlar aklıma… Erkan Oğur’un bir röportajını* okudum bu ge
 
 Yazının sonuna sizi o iki Sen’i anlattığım iki şiyir götürecek.
 
- 
 
-ikinci şarkı **
+**ikinci şarkı** **
 
-sana çok uzun bir şey söyleyeceğim
-seni seviyorum
+sana çok uzun bir şey söyleyeceğim  
+seni seviyorum  
 
- 
 
-mavi gözlü kargalar adası
+**mavi gözlü kargalar adası**
 
-“kandırılmanın iki yolu vardır, biri doğru olmayana inanmaktır, diğeri doğru olanı reddetmektir” – Soren Kirkegaard
+*“kandırılmanın iki yolu vardır, biri doğru olmayana inanmaktır, diğeri doğru olanı reddetmektir” – Soren Kirkegaard*
 
-dünyanın ikiye bölündüğü o yaz
-anımsıyor musun
-bırakıvermişti sardunyalar kendilerini
-cumbalardan aşağı
-vazgeçmenin çiçekçesi
+dünyanın ikiye bölündüğü o yaz  
+anımsıyor musun  
+bırakıvermişti sardunyalar kendilerini  
+cumbalardan aşağı  
+vazgeçmenin çiçekçesi  
 
-vantilatörler can havli ile dönüyordu
-anımsıyorsundur
-adam akıllı bunaldık o yaz
-ol’malar söylendiğiyle
-– yaz boyu uyuyamamıştık –
-vantilatörler döndüğüyle
-kaldı
+vantilatörler can havli ile dönüyordu  
+anımsıyorsundur  
+adam akıllı bunaldık o yaz  
+ol’malar söylendiğiyle  
+– yaz boyu uyuyamamıştık –  
+vantilatörler döndüğüyle kaldı  
 
- 
 
-* Ot dergisi Ağustos 2014
+\* Ot dergisi Ağustos 2014
 
-** Tanju Duru, Aklım hep sende
+\*\* Tanju Duru, Aklım hep sende
 
 2014, Leicester – 2020, İzmir

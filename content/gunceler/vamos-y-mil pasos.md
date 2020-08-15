@@ -1,6 +1,8 @@
 ---
 title: "Günce: Vamos y mil pasos"
 date: "2020-03-25"
+when: "25.03.2020"
+where: "Eyüp"
 description: "Günce: Vamos y mil pasos"
 images: ["/images/eda-dereci-kirmizi.jpg"]
 kategori: ["günce"]
@@ -25,4 +27,3 @@ Yanaklarımın biraz kızarık olduğuna, parmaklarımın ucunda durduğuma, aya
 ”
 
 \* Edip Cansever, Kaçışına Uğrayan Çiçek  
-25.03.2020, Eyüp

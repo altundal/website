@@ -1,6 +1,8 @@
 ---
 title: "Günce: Daedalus'un labirenti"
 date: "2020-04-18"
+when: "14.04.2020"
+where: "Eyüp"
 description: "Günce: Daedalus'un labirenti"
 images: ["/images/eda-dereci-pencere.jpg"]
 etiket: ["daedalus", "labirent"]
@@ -28,4 +30,3 @@ Akşamüstü pencerenin önünde otururken kendimi bir çok savaştan sağ çık
 Rivayet o ki Daedalus içinden çıkılması mümkün olmayan labirenti yarı insan yarı boğa olan canavar Minotor’u hapsetmek için inşa etmiş. Hayat bu ya kendi inşa ettiği labirentte hapis kalmış. Balmumundan kanatlar yapıp uçarak kaçabilmiş kendi elleriyle yaptığı hapishanesinden. Kim bilir belki de Daedalus ve Minotor aynı kişidir. Duvarı ören de, hapis olan da, iyi olan da, canavar olan da hepsi bir kişidir. Korkusuyla, kaygısıyla, iyisiyle, kötüsüyle, sevgisiyle, bencilliğiyle. Hayatta kalmaya çalışan, kendini kendi yaptığı duvarların arkasında koruyan. Sonra o duvarların arasına sıkışıp kalan. En sonunda kendini, kendi yaptığı duvarlardan da kurtarmak zorunda kalan. Yani herhangi bir insan.
 
 \* Edip Cansever, Kaçışına Uğrayan Çiçek  
-14.04.2020-18.04.2020 Eyüp

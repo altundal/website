@@ -6,13 +6,13 @@
         <article>
             <h2>
                 <a href="{{ .Permalink }}">
-                    {{ .Title }}
+                    {{ .Title }} 
                 </a>
+                <i class="when">{{ .Params.When }}{{ if .Params.Where }}, {{ .Params.Where }}
+                {{ end }}</i>
             </h2>
             <div class="post-footer">
                 <p>{{ .Summary }}</p>
-                
-                <time>{{ .Date.Format "02/01/2006" }}</time>
 
                 <!-- Display tags -->
                 Kategori:
@@ -47,12 +47,12 @@
                             <polygon id="Path" points="13 4 13 5 1 5 1 4"></polygon>
                         </g>
                 </svg>  
-                Newer          
+                Yeni          
             </a>
             {{ end }}
             {{ if $paginator.HasNext }}
                 <a class="color-link older" href="{{ $paginator.Next.URL | relLangURL }}">
-                    Older
+                    Eski
                     <svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
                             <g class="color-arrow" fill="#63BDA2" fill-rule="nonzero">
                                 <polygon points="7.6707477 1.37628835 8.3292523 0.623711653 12.7592994 4.50000282 8.32918951 8.37629079 7.67069049 7.62370921 11.2407006 4.49999718"></polygon>
