@@ -27,4 +27,4 @@ Sarıncalı***, kimi okuyan sanacak ki sana bir şey yazdım. Oysa seni yazmakla
 
 \* Ergin Günçe, Dersimiz Aşk Çünkü, Söylemiştim  
 \*\* Gara gız’a vedasında hoyratlık ettiğim doğrudur  
-\*\*\* Diğer arılar gibi çiçeklerden bal üretmeyen, saldırgan, sarı-siyah renkli yaban arısına Batı Karadeniz’de verilen ad. Küçük eşek arısı.
+\*\*\* "sarıca" olarak bilinen küçük eşek arısına Batı Karadeniz’de verilen ad.
