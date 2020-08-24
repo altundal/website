@@ -6,7 +6,7 @@ where: "Tavak"
 description: "Her türlü baş ağrısını iyileştiren mucizevi dua"
 images: ["/images/topal-memed.jpg"]
 kategori: ["yazı"]
-etiket: ["Topal Memed"]
+etiket: ["dua","muska","Topal Memed"]
 
 ---
 
