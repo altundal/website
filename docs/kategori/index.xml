@@ -6,10 +6,19 @@
     <description>Recent content in Kategori on Burak Altundal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.burakaltundal.com/kategori/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>yazı</title>
+      <link>https://www.burakaltundal.com/kategori/yaz%C4%B1/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.burakaltundal.com/kategori/yaz%C4%B1/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>günce</title>
@@ -17,15 +26,6 @@
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.burakaltundal.com/kategori/g%C3%BCnce/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>yazı</title>
-      <link>https://www.burakaltundal.com/kategori/yaz%C4%B1/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.burakaltundal.com/kategori/yaz%C4%B1/</guid>
       <description></description>
     </item>
     
