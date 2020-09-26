@@ -9,7 +9,7 @@ etiket: ["Baudelaire", "gitmek"]
 
 ---
 
-2005 yılının Aralık ayıydı. Erasmus bursuyla Danimarka’ya gidiyordum, Atatürk Havalimanı dış hatlar gidiş terminalindeydik. Asıl gitme nedenimse sadece gitmekti. Biraz kafamı serinletmek, ne bileyim madem bu kadar saçma sapan hayatlar yaşayacaktık bunun bir kısmının Danimarka’da yaşanmasında ne sakınca olabilirdi. Huyu değildir ama annem illa yolcu etmeye gelmek istedi. 
+2005 yılının Aralık ayıydı. Erasmus bursuyla Danimarka’ya gidiyordum, Atatürk Havalimanı dış hatlar gidiş terminalindeydik. Asıl gitme nedenimse sadece gitmekti. Biraz kafamı serinletmek, ne bileyim madem bu kadar saçma sapan hayatlar yaşayacaktık bunun bir kısmının Danimarka’da yaşanmasında ne sakınca olabilirdi. Huyu değildir ama annem illa yolcu etmeye geldi. 
  
 <!--more-->
 
