@@ -19,4 +19,4 @@ Vedalaşırken: “Oğlum, insan gittiği yere kendini de götürüyor, biliyors
 
 Bugün sosyal medyada Danimarka’larda gezinen birinin Baudelaire’den alıntıladığı “Nerede değilsem orada iyi olacakmışım gibi gelir” şeysi hatırlattı bana bunları. 
 
-O gün Danimarka’ya gittim, sonra başka başka bir sürü yere gittim. Kimi uzun, kimi kısa, kimi uzak, kimi yakın. Her gidişim, gitmenin gidilen yerle o kadar da ilgili olmadığını anlamama biraz daha yardım etti. Yine de bazen; sadece gitmenin güzelliğini de. 
+O gün Danimarka’ya gittim, sonra başka başka bir sürü yere. Kimi uzun, kimi kısa, kimi uzak, kimi yakın. Her gidişim, gitmenin gidilen yerle o kadar da ilgili olmadığını anlamama biraz daha yardım etti. Yine de bazen; sadece gitmenin güzelliğini de. 
