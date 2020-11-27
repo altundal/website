@@ -6,7 +6,7 @@ where: "Eyüp"
 description: "Tek tıkla"
 images: ["/images/tek-tikla-uh.jpg"]
 kategori: ["siir"]
-etiket: ["şiir","Gülten Akın","Füruğ Ferruhzad", "USSR","Küba"]
+etiket: ["şiir","Gülten Akın","Füruğ Ferruhzad", "SSCB","Küba"]
 
 ---
 
@@ -16,7 +16,7 @@ vapurlar turuncu
 akşam sarışın  
 akşam neden sarışın bilmiyorum  
 semt senin   
-benim kira da olsa evim yok buralarda  
+benim, kira da olsa evim yok buralarda  
 
 <!--more-->
 
@@ -48,10 +48,10 @@ kafanı uzatıp bakıyorsun pencereden
 olay ne diye soruyor kalabalık  
 ne olmuş  
 kuryeci çocuk kaza yapmış  
-hay allah diyorsun içinden  
+"hay allah diyosun"   
 yazık olmuş, üzülüyorsun  
 tek tıkla fotoğrafını çekip  
-“bi kurye daha kaza yapmış,çok zor şartlarda çalışıyorlar. :’(”  
+“bi kurye daha kaza yapmış,çok zor şartlarda çalışıyolar. :’(”  
 twitini atıyorsun  
 duyarlısın tek tıkla  
 
@@ -69,18 +69,22 @@ beklemek de tek tıkla
 
 tek tıkla oluyor her şey  
 herkesin düğmesi kendine kadar  
+
 dünya haritasında göster desek  
-gösteremezsin bombaladığın yeri ama  
-füze atabilirsin, atıyorsun da tek tıkla   
+gösteremezsin bombaladığın yeri   
+füze atabilirsin ama  
+atıyorsun da tek tıkla  
+
 açlığın zahmetini sorsak  
 hiç 20 dk’dan fazla aç kalmadın ki   
 nereden bilesin   
-sipariş verebilirsin tek tıkla  
+sipariş verebilirsin ama tek tıkla  
+
 “4 kardeşin intiharında o detay ortaya çıktı”  
 haberler haber vermeyi bırakalı çok oldu   
 gerçekten de siyanürle öldürmüşler kendilerini  
-tek tıkla teyid ediyorsun   
-teyid edenler hangi doğruyu teyid ettiklerini bilmiyorlar ama  
+tek tıkla teyit ediyorsun   
+teyit edenler hangi doğruyu teyit ettiklerini bilmiyorlar ama  
 inanmak da tek tıkla  
 
 ne olmuş diye soruyor kalabalık  
