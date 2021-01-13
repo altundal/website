@@ -26,4 +26,4 @@ Bütün sohbetlerde biraz burukluk, yolların hepsinde biraz durgunluk var. Bili
 
 Arabanın işleri hallolursa iki güne Mersin’e varacağım, Hakkı orada. Yol boyunca ara ara “Bu şehre bir daha ilk geldiğim heyecanla gelme ihtimalim var mı acaba” diye düşündüm, Hakkı kusura bakmasın. Dediğim gibi Kürt meselesine girmeyeceğim. 
 
-Yas tutmuyoruz. Geçmişi hatırlamak yük geliyor. Bu geçiştirmeleri, unutmakları marifetten sayıyoruz. “Kuş ölür, sen uçmayı hatırla” diyordu Füruğ. [Kuş niye ölüyor, biz uçmayı unutmayalım.](https://www.burakaltundal.com/siirler/tek-tikla/)
+Yas tutmuyoruz. Geçmişi hatırlamak yük geliyor. Bu geçiştirmeleri, unutmakları marifetten sayıyoruz. “Kuş ölür, sen uçmayı hatırla” diyordu Füruğ. [Kuş niye ölüyor, biz uçmayı niye unutuyoruz.](https://www.burakaltundal.com/siirler/tek-tikla/)
