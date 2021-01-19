@@ -32,7 +32,7 @@ Hepimiz biliyoruz kolaya gitmemenin zahmetini ve o zahmeti kimsenin çekmediğin
 
 > *“Bu uyum korkunçtur Yakup!”\*\** 
 
-Uzun zamandır uyumun ayarı biraz kaçmış gibi. Turgut Uyar’ın “Dünyanın En Güzel Arabistanı” 1959’da, Edip Cansever’in “Çağrılmayan Yakup”’u 1966 yayımlandı. Tarihe aklımızla, hızımızla, teknolojimizle tur bindiriyoruz ama aynı pistin etrafında dönüp durduğumuzun farkında değiliz. İlerlemiyoruz. Değişmekle unutmak birbirine karışıyor gittikçe. Tekrar tekrar aynı yoksunlukları, aynı toplumsal sorunları yaşıyoruz.
+Uzun zamandır uyumun ayarı biraz kaçmış gibi. Turgut Uyar’ın “Dünyanın En Güzel Arabistanı” 1959’da, Edip Cansever’in “Çağrılmayan Yakup”’u 1966'da yayımlandı. Tarihe aklımızla, hızımızla, teknolojimizle tur bindiriyoruz ama aynı pistin etrafında dönüp durduğumuzun farkında değiliz. İlerlemiyoruz. Değişmekle unutmak birbirine karışıyor gittikçe. Tekrar tekrar aynı yoksunlukları, aynı toplumsal sorunları yaşıyoruz.
 
 Yaşlanmak eskiden bilgelik, hatırlamak ve değişimin sürekliliğiymiş. Artık yaşlanmıyoruz da sadece eskiyoruz sanki. İş için bir çok kez Avrupa ülkelerine gittiği halde hiçbir yerini gezmemiş, görmemiş biriyle tanıştım Mersin’de. İnsan merak etmeyince hayret edeceği şeyleri de görmüyor önünden defalarca geçse bile. Tuğçe Isıyel “bir insanın başına gelebilecek en kötü şey hayret duygusunu kaybetmek olmalı” diye [yazmıştı](https://www.gazeteduvar.com.tr/donup-arkana-bakmak-makale-1508289). Merak etmeyen hayret edebilir mi? Hayret etmeyen merak edebilir mi? Uyumun bu kadarı ruhen intihar etmek değil mi? 
 
