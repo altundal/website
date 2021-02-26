@@ -4,6 +4,7 @@ date: "2021-02-21"
 when: "21.02.2021"
 where: "Tavak"
 description: "Love in the time of Corona"
+images: ["/images/gokce-erbil-passenger.jpg"]
 etiket: [
     "letter",
     "corona",
