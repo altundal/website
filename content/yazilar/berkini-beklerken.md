@@ -15,7 +15,7 @@ kategori : ["yazı"]
 
 >![Gökçe Erbil](/images/gokce-erbil-berkin.jpg) Gökçe Erbil
 
-*NOT: Bu yazıyı Berkin'in henüz hayatta olduğu zaman yazmıştım. Tekrar tekrar okuması çok zahmetli geldiği için ilk yazıldığı hali ile yayınlıyorum. Keşke uyansaydın be çocuk.*
+*NOT: Bu yazıyı Berkin henüz hayattayken yazmıştım. Tekrar tekrar okuması çok zahmetli geldiği için ilk yazıldığı hali ile yayınlıyorum. Keşke uyansaydın be çocuk.*
 
 Liseye yatılıya gittiğim yıldan bu yana ne zaman annemi ziyarete gitsem biraz misafir olurum. Misafirlik resmiyetinden değil de artık bildiğimizden iki ayrı yaşam olduğumuzu. Herkes kendi yaşamına dönecek ayırabildiğimiz vakitler bittiğinde. Bu hep bir tarafı misafirlik olan ziyaretlerimde annemin çok şaşırdığım bir özelliğini farkettim. Özellik de değil belki özenini. 
 
