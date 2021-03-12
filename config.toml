@@ -28,7 +28,7 @@ publishDir = "docs"
 
   # Programming
   github = "altundal"
-	mainSections = ["gunceler","yazilar","siirler"]
+	mainSections = ["gunceler","yazilar","siirler","mektuplar"]
 
 # Menu links along the sidebar navigation.
 [[menu.main]]
