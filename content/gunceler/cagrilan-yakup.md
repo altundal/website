@@ -6,7 +6,7 @@ where: "Eyüp"
 description: "Günce: Çağrılan Yakup"
 images: ["/images/eda-dereci-iki.jpg"]
 kategori: ["günce"]
-etiket: ["edip cansever", "çağrılmayan yakup"]
+etiket: ["yakup", "edip cansever", "çağrılmayan yakup"]
 
 ---
 
