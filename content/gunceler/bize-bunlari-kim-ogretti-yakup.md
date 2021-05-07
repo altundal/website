@@ -9,7 +9,7 @@ etiket: ["kaza", "yakup", "çaresizlik"]
 
 ---
 
-Bu akşam üstü köye dönerken kötü bir kaza yaptım. Benzin sızıyordu motorla birlikte sürüklendiğimiz yere, yürümez herhalde diye düşündüm. Atilla’yı arayayım diye geçti ilkin aklımdan. Dizim ve parmaklarım acıyordu. Sakindim. Motoru kaldırıp yolun kenarına çektim. Sağını solunu kontrol ettim. Motosiklet pantolonum ve botlarım parçalanmıştı, dizim ve parmaklarım acıyordu. Bi’ sigara yaktım. Tehlikeli bir şey olabilir mi diye sormak için Fatih’i aradım, açmadı. Taşma tahliyesinden akıtmış meğer benzini. 
+Bu akşam üstü köye dönerken kötü bir kaza yaptım. Benzin sızıyordu motorla birlikte sürüklendiğim yere, yürümez herhalde diye düşündüm. Atilla’yı arayayım diye geçti ilkin aklımdan. Dizim ve parmaklarım acıyordu. Sakindim. Motoru kaldırıp yolun kenarına çektim. Sağını solunu kontrol ettim. Motosiklet pantolonum ve botlarım parçalanmıştı, dizim ve parmaklarım acıyordu. Bi’ sigara yaktım. Tehlikeli bir şey olabilir mi diye sormak için Fatih’i aradım, açmadı. Taşma tahliyesinden akıtmış meğer benzini. 
  
 <!--more-->
 
