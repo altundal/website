@@ -2,14 +2,16 @@
 <html>
 
 <head>
-	<meta name="generator" content="Hugo 0.73.0" />
+	<meta name="generator" content="Hugo 0.105.0">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
     integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  
   <title>
     Burak Altundal  
     
@@ -25,7 +27,7 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://www.burakaltundal.com/kertenkele.png"/>
+<meta name="twitter:image" content="https://www.burakaltundal.com/buyucu.png"/>
 
 <meta name="twitter:title" content="Burak Altundal"/>
 <meta name="twitter:description" content="Burak Altundal | büyücü"/>
@@ -35,124 +37,175 @@
   
 
   <style>
+  :root{
+    --main-color: #333745;
+    --active-color: #e63462;
+    --buyucu-color: #e63462;
+    --border-color: #eef5db;
+  }
+
   body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin: auto;
+    color: var(--main-color);
     max-width: 50em;
   }
 
   a{
-    color: #6496cc;
+    color: var(--active-color);
+  }
+  
+  a:hover,a:active,a:focus{
+    color: var(--main-color);
+    text-decoration: none;
   }
 
-  #page-title {
-      text-align: center;
+  a.inverse{
+    color: var(--main-color) !important;
   }
-
-  #page-title h1 a {
-      color: black;
-      font-size: 2.7rem;
+  
+  a.inverse:hover,a.inverse:active,a.inverse:focus{
+    color: var(--active-color) !important;
   }
 
   .read-more{
-      float: right;
-  }
-
-  #author-name h6 a {
-    color: black;
     font-weight: normal;
-    font-size: small;
+    font-family: 'Nunito', sans-serif;
   }
 
-  #page-title a:hover, .post a:hover {
-      text-decoration: underline;
+  .post-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .post-footer .read-more{
+    align-self: flex-end;
+  }
+
+  .paginator-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .when{
-    font-size: 15px;
-    float: right;
-    margin-top: 6px;
+    font-size: 0.9rem;
     font-weight: normal;
   }
 
-  article h2 , h1{
-    font-size: 22px !important;
-    margin-top: 15px;
-    font-weight: bold;
+  .when-post{
+    float: right;
+    text-align: right;
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+
+  article{
+    margin-bottom: 15px;
   }
   
-  article h2 a, .blog-post h1 a{
-    color: black;
+   .blog-post-content,.post-summary{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: 300; 
+    
   }
-  
-  article, .blog-post-content {
-    font-size: 16px;
-    font-family: 'Ubuntu Mono', monospace;
-    border-bottom: 1px solid #d8d7d7;
+
+  .post-footer{
+    border-bottom: 1px solid var(--border-color);
     padding-bottom: 10px;
   }
 
-  .date-time-title, .article-content h2 {
-      font-family: 'Ubuntu Mono', monospace;
+  .blog-post-content {
+    min-height: 150px;
+    margin-bottom: 20px;
+  }
+
+  .post-picture{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 0.9rem;
+  }
+
+  .post-picture em{
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .post-picture img{
+    display: block;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .blog-post-content img, article img{
     display: block;
     max-width: 75%;
+    max-height: 400px;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .blog-post-content time{
-
   }
 
   .navbar-brand{
     font-size: 24px;
     display: flex;
     align-items:center;
+    position: relative;
   }
-
+  
   .navbar-brand img{
     max-height: 40px;
   }
 
-  .description{
-    font-size: 14px;
+  .buyucu{
+    font-size: 0.75rem;
+    position: absolute;
+    right: -32px;
+    bottom: 0;
+    color: var(--buyucu-color);
+  }
+
+  .buyucu-art{
+    margin-right: 10px;
+  }
+
+  .navbar-brand:hover .buyucu,.navbar-brand:hover img{
+    color: var(--main-color);
+    
   }
 
   blockquote {
-    margin: 20px 0;
-    font-size: 85%;
-  }
-
-  blockquote p{
-    text-align: center;
+    margin: 10px 0;
+    font-size: 0.9em;
+    font-style: italic; 
   }
 
   blockquote em{
     display: block;
     text-align: left;
-    font-style: italic;
   }
 
   .posts-listing li {
     list-style-type: none;
   }
 
-  .navbar-right {
-    justify-content: flex-end;
-  }
+  
 
   .navbar {
     padding: 5px 0 0 0;
-    border-bottom: 1px solid #908f8f;
-    margin-bottom: 0;
+    margin-bottom: 25px;
     margin-top: 0;
+    border-bottom: 1px solid var(--border-color);
+    justify-content: space-between;
   }
 
-  .nav-link {
-    font-size: 14px;
+  .navbar-right{
+    flex-grow: 0 !important;
   }
 
   .not-found{
@@ -161,7 +214,7 @@
 
   .date-time-title{
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
   }
 
   .date-share a{
@@ -169,22 +222,16 @@
     font-size: 10px;
   }
 
-  .blog-post-content {
-    min-height: 150px;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    margin-bottom: 20px;
+  a.nav-item{
+    color: dimgrey !important;
+    font-size: 0.9rem;
   }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.7rem;
+  h1,h2 {
+    font-size: 1.5rem;
   }
 
   h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   h4  {
@@ -224,14 +271,16 @@
   <div class="container-fluid">
     <nav class="navbar navbar-expand-md navbar-light">
 
-      <a href="/" class="navbar-brand align-items-left">
-        <img src="/apple-touch-icon.png" alt="Ayazda bir kertenkele"/>Burak Altundal
+      <a href="/" class="navbar-brand align-items-left inverse">
+        <img class="buyucu-art" src="/buyucu.svg" alt="Ayazda bir kertenkele"/>burak altundal
+
+        
+        <div class="buyucu">
+           büyücü
+        </div>
+      
       </a>
       
-        <div class="description">
-          &bull; büyücü
-        </div>
-        
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation" name="button">
@@ -241,383 +290,276 @@
       <div class="collapse navbar-right navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           
+            <a class="inverse nav-item nav-link " href="/kategori/">Kategoriler</a>
           
-            <a class="nav-item nav-link " href="/kategori/">Kategoriler</a>
+            <a class="inverse nav-item nav-link " href="/kim/">Kim?</a>
           
-            <a class="nav-item nav-link " href="/kim/">Kim?</a>
-          
-          <a class="nav-item nav-link" href="https://www.burakaltundal.com/index.xml" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
+          <a class="inverse nav-item nav-link" href="https://www.burakaltundal.com/index.xml" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
         </div>
       </div>
 
     </nav>
 
-<div class = "article-content">
+<div class = "article-summary">
         
         
         
         <article>
             <h2>
-                <a href="https://www.burakaltundal.com/gunceler/kayayi-delen-incir/">
+                <a href="https://www.burakaltundal.com/gunceler/annem-baudelaire-ve-gitmek/" class="inverse">
+                    Günce: Annem, Baudelaire ve gitmek 
+                </a>
+            </h2>
+            
+            <div class="post-summary">    
+                
+                
+                <p>2005 yılının Aralık ayıydı. Erasmus bursuyla Danimarka’ya gidiyordum, Atatürk Havalimanı dış hatlar gidiş terminalindeydik. Asıl gitme nedenimse sadece gitmekti. Biraz kafamı serinletmek, ne bileyim madem bu kadar saçma sapan hayatlar yaşayacaktık bunun bir kısmının Danimarka’da yaşanmasında ne sakınca olabilirdi. Huyu değildir ama annem illa yolcu etmeye geldi.
+                
+                <a class="read-more inverse" href="/gunceler/annem-baudelaire-ve-gitmek/">devamı...</a>
+            </div>
+            
+            <div class="post-footer">
+                <span>
+                    
+                        <a class="tag" href="/kategori/g%C3%BCnce">#günce</a>
+                    
+                    <i class="when">05.10.2015</i>
+                </span>
+            </div>
+        </article>
+        
+        <article>
+            <h2>
+                <a href="https://www.burakaltundal.com/gunceler/kayayi-delen-incir/" class="inverse">
                     Günce: Kayayı delen incir 
                 </a>
-                <i class="when">29.03.2020, Eyüp
-                </i>
             </h2>
+            
+            <div class="post-summary">    
+                
+                
+                <div class="post-picture"><img  src="/images/eda-dereci-incir.jpg" alt=" " /><em><a href="https://www.instagram.com/p/B21qmwxAaa7/">İllüstrasyon Eda Dereci</a></em></div><blockquote><p>‘matrağa alışkınım aslında ama<br>ille kayayı delen incir,<br>suları aşan gemi!’*</blockquote><p>İllüstrasyonları yazma pratiği yapmak için seçiyorum. Bu illüstrasyona bakarken aklıma Uyar’ın kayayı delen inciri, Peter Pan, Alice’in harikalar diyarı ve ağacın(insanın) bütün ömrü boyunca geliştirdiği köklerini bu şekilde görebilsek nasıl olurdu acaba diye düşündüm.
+                
+                <a class="read-more inverse" href="/gunceler/kayayi-delen-incir/">devamı...</a>
+            </div>
+            
             <div class="post-footer">
-                <p><blockquote>
-<p><img src="/images/eda-dereci-incir.jpg" alt="İllüstrasyon Eda Dereci"> <a href="https://www.instagram.com/p/B21qmwxAaa7/">İllüstrasyon Eda Dereci</a></p>
-</blockquote>
-<blockquote>
-<p><em>‘matrağa alışkınım aslında ama<br>
-ille kayayı delen incir,<br>
-suları aşan gemi!’*</em></p>
-</blockquote>
-<p>İllüstrasyonları yazma pratiği yapmak için seçiyorum. Bu illüstrasyona bakarken aklıma Uyar’ın kayayı delen inciri, Peter Pan, Alice’in harikalar diyarı ve ağacın(insanın) bütün ömrü boyunca geliştirdiği köklerini bu şekilde görebilsek nasıl olurdu acaba diye düşündüm.</p></p>
-
-                
-                Kategori:
-                
-                    <a class="tag" href="/kategori/g%C3%BCnce">#günce</a>
-                
-                
-                Etiket: 
-                
-                     <a class="tag" href="/etiket/turgut-uyar">#Turgut Uyar</a>
-                
-                     <a class="tag" href="/etiket/marquez">#Marquez</a>
-                
-                
-                
-                    <a class="read-more" href="/gunceler/kayayi-delen-incir/">Devamını oku...</a>
-                
-            </div> 
-           
+                <span>
+                    
+                        <a class="tag" href="/kategori/g%C3%BCnce">#günce</a>
+                    
+                    <i class="when">29.03.2020, Eyüp
+                        </i>
+                </span>
+            </div>
         </article>
         
         <article>
             <h2>
-                <a href="https://www.burakaltundal.com/yazilar/her-turlu-bas-agrisini-iyilestiren-mucizevi-dua/">
+                <a href="https://www.burakaltundal.com/yazilar/her-turlu-bas-agrisini-iyilestiren-mucizevi-dua/" class="inverse">
                     Her türlü baş ağrısını iyileştiren mucizevi dua 
                 </a>
-                <i class="when">20.08.2020, Tavak
-                </i>
             </h2>
+            
+            <div class="post-summary">    
+                
+                
+                <div class="post-picture"><img  src="/images/topal-memed.jpg" alt="[Ortadaki Topal Memed dedem](https://www.instagram.com/p/B7OlGkCgIzI)" /><em><a href="https://www.instagram.com/p/B7OlGkCgIzI">Ortadaki Topal Memed dedem</a></em></div><p>Rahmetli dedem Topal Memed rençberlik dışında saat ve silah tamiri yapardı. Kerpetenle diş çekecek, mikrop kapmış yaraları kesip temizleyecek kadar da hekimliği vardı. Muska yazardı, ama sadece hayvanlar için. Nazar olmuş, sütten kesilmiş, hasta olmuş hayvanlara. Hoca, hafız falan değildi, kimseyi okuyup üflemezdi. İnsanlara da kesinlikle muska yazmazdı.
+                
+                <a class="read-more inverse" href="/yazilar/her-turlu-bas-agrisini-iyilestiren-mucizevi-dua/">devamı...</a>
+            </div>
+            
             <div class="post-footer">
-                <p><blockquote>
-<p><img src="/images/topal-memed.jpg" alt="Ortadaki Topal Memed dedem"> <a href="https://www.instagram.com/p/B7OlGkCgIzI">Ortadaki Topal Memed dedem</a></p>
-</blockquote>
-<p>Rahmetli dedem Topal Memed rençberlik dışında saat ve silah tamiri yapardı. Kerpetenle diş çekecek, mikrop kapmış yaraları kesip temizleyecek kadar da hekimliği vardı. Muska yazardı, ama sadece hayvanlar için. Nazar olmuş, sütten kesilmiş, hasta olmuş hayvanlara. Hoca, hafız falan değildi, kimseyi okuyup üflemezdi. İnsanlara da kesinlikle muska yazmazdı.</p></p>
-
-                
-                Kategori:
-                
-                    <a class="tag" href="/kategori/yaz%C4%B1">#yazı</a>
-                
-                
-                Etiket: 
-                
-                     <a class="tag" href="/etiket/dua">#dua</a>
-                
-                     <a class="tag" href="/etiket/muska">#muska</a>
-                
-                     <a class="tag" href="/etiket/topal-memed">#Topal Memed</a>
-                
-                
-                
-                    <a class="read-more" href="/yazilar/her-turlu-bas-agrisini-iyilestiren-mucizevi-dua/">Devamını oku...</a>
-                
-            </div> 
-           
+                <span>
+                    
+                        <a class="tag" href="/kategori/yaz%C4%B1">#yazı</a>
+                    
+                    <i class="when">20.08.2020, Tavak
+                        </i>
+                </span>
+            </div>
         </article>
         
         <article>
             <h2>
-                <a href="https://www.burakaltundal.com/gunceler/guzel-vedalar/">
+                <a href="https://www.burakaltundal.com/gunceler/guzel-vedalar/" class="inverse">
                     Günce: Güzel vedalar 
                 </a>
-                <i class="when">19.06.2020, Eyüp
-                </i>
             </h2>
+            
+            <div class="post-summary">    
+                
+                
+                <div class="post-picture"><img  src="/images/eda-dereci-sokak.jpg" alt="[İllüstrasyon Eda Dereci](https://www.instagram.com/p/CCiq7cCAtO7)" /><em><a href="https://www.instagram.com/p/CCiq7cCAtO7">İllüstrasyon Eda Dereci</a></em></div><blockquote><p>‘Dersimiz Aşk, konular Haydutluk ve Sarışınlık’ *</blockquote><p>Akşam üstü son kez vaktiyle seni beklediğim sokağa baktım. Motosikleti çalıştırmadan önceki an, seninle aynı zamanda çıkmışızdır belki. Sol mememin altında bir belki. Ne güzel şeyler. Bu sokağa tekrar geleceğim ama bir daha hiç böyle bakmayacağım. Bütün hikayelerin kendi zamanları, bağlamları var. O bağlamdan ve zamandan da çıkıyorum eve giderken<a href="https://www.youtube.com/watch?v=Z1dIRjazpBw">(bininci adım)</a>. Seninle ilgili her şey bir anımsamaya, burukluğa dönüşüyor. Buruk bir gülümsemeye dönüşmüyor. Sokaktan geriye sadece kendi hissettiklerimin güzelliği kaldı. Keşke seni de güzel hatırlayabilseydim.
+                
+                <a class="read-more inverse" href="/gunceler/guzel-vedalar/">devamı...</a>
+            </div>
+            
             <div class="post-footer">
-                <p><blockquote>
-<p><img src="/images/eda-dereci-sokak.jpg" alt="İllüstrasyon Eda Dereci"> <a href="https://www.instagram.com/p/CCiq7cCAtO7">İllüstrasyon ve fotoğraf Eda Dereci</a></p>
-</blockquote>
-<blockquote>
-<p><em>‘Dersimiz Aşk, konular Haydutluk ve Sarışınlık’  *</em></p>
-</blockquote>
-<p>Akşam üstü son kez vaktiyle seni beklediğim sokağa baktım. Motosikleti çalıştırmadan önceki an, seninle aynı zamanda çıkmışızdır belki. Sol mememin altında bir belki. Ne güzel şeyler. Bu sokağa tekrar geleceğim ama bir daha hiç böyle bakmayacağım. Bütün hikayelerin kendi zamanları, bağlamları var. O bağlamdan ve zamandan da çıkıyorum eve giderken<a href="https://www.youtube.com/watch?v=Z1dIRjazpBw">(bininci adım)</a>. Seninle ilgili her şey bir anımsamaya, burukluğa dönüşüyor. Buruk bir gülümsemeye dönüşmüyor. Sokaktan geriye sadece kendi hissettiklerimin güzelliği kaldı. Keşke seni de güzel hatırlayabilseydim.</p></p>
-
-                
-                Kategori:
-                
-                    <a class="tag" href="/kategori/g%C3%BCnce">#günce</a>
-                
-                
-                Etiket: 
-                
-                     <a class="tag" href="/etiket/veda">#veda</a>
-                
-                     <a class="tag" href="/etiket/ergin-g%C3%BCn%C3%A7e">#Ergin Günçe</a>
-                
-                     <a class="tag" href="/etiket/sar%C4%B1%C5%9F%C4%B1nl%C4%B1k">#sarışınlık</a>
-                
-                
-                
-                    <a class="read-more" href="/gunceler/guzel-vedalar/">Devamını oku...</a>
-                
-            </div> 
-           
+                <span>
+                    
+                        <a class="tag" href="/kategori/g%C3%BCnce">#günce</a>
+                    
+                    <i class="when">19.06.2020, Eyüp
+                        </i>
+                </span>
+            </div>
         </article>
         
         <article>
             <h2>
-                <a href="https://www.burakaltundal.com/gunceler/bazi-gulusler/">
+                <a href="https://www.burakaltundal.com/gunceler/bazi-gulusler/" class="inverse">
                     Günce: Bazı gülüşler 
                 </a>
-                <i class="when">19.07.2020, Tavak
-                </i>
             </h2>
+            
+            <div class="post-summary">    
+                
+                
+                <div class="post-picture"><img  src="/images/gulus.jpeg" alt="Bikis Bikindou, Alda Bikindou" /><em>Bikis Bikindou, Alda Bikindou</em></div><blockquote><p>‘Bir şey ki artık birdenbire her şeydi.’ *</blockquote><p>Bazı fotoğraflarda ne kadar güzel gülüyor insanlar, bazı anlarda. Kahkaha değil, gülümseme değil. Neşe değil, iyi hissetmek değil. Karşısındakinin içine dokunmaya başladığı ilk anlar mı, gelişip içine işleyen yüzüne yerleşmeye başlayan heyecanlı günler mi, yerleşiklik hissine eşlik eden sevmeye daha çok vakit bulmak istenen zamanlar mı. Kimine biraz utanç karışık, kimine tedirgin etmeyen bir ne yapacağını bilemezlik. Sevebilen herkesin böyle bir gülüşü var diğer bütün gülüşlerinden farklı.
+                
+                <a class="read-more inverse" href="/gunceler/bazi-gulusler/">devamı...</a>
+            </div>
+            
             <div class="post-footer">
-                <p><blockquote>
-<p><img src="/images/gulus.jpeg" alt="Bikis Bikindou, Alda Bikindou"> Bikis Bikindou, Alda Bikindou</p>
-</blockquote>
-<blockquote>
-<p><em>‘Bir şey ki artık birdenbire her şeydi.’ *</em></p>
-</blockquote>
-<p>Bazı fotoğraflarda ne kadar güzel gülüyor insanlar, bazı anlarda. Kahkaha değil, gülümseme değil. Neşe değil, iyi hissetmek değil. Karşısındakinin içine dokunmaya başladığı ilk anlar mı, gelişip içine işleyen yüzüne yerleşmeye başlayan heyecanlı günler mi, yerleşiklik hissine eşlik eden sevmeye daha çok vakit bulmak istenen zamanlar mı. Kimine biraz utanç karışık, kimine tedirgin etmeyen bir ne yapacağını bilemezlik. Sevebilen herkesin böyle bir gülüşü var diğer bütün gülüşlerinden farklı.</p></p>
-
-                
-                Kategori:
-                
-                    <a class="tag" href="/kategori/g%C3%BCnce">#günce</a>
-                
-                
-                Etiket: 
-                
-                     <a class="tag" href="/etiket/bikis-bikindou">#Bikis Bikindou</a>
-                
-                     <a class="tag" href="/etiket/alda-bikindou">#Alda Bikindou</a>
-                
-                     <a class="tag" href="/etiket/g%C3%BCl%C3%BC%C5%9F">#gülüş</a>
-                
-                
-                
-                    <a class="read-more" href="/gunceler/bazi-gulusler/">Devamını oku...</a>
-                
-            </div> 
-           
+                <span>
+                    
+                        <a class="tag" href="/kategori/g%C3%BCnce">#günce</a>
+                    
+                    <i class="when">19.07.2020, Tavak
+                        </i>
+                </span>
+            </div>
         </article>
         
         <article>
             <h2>
-                <a href="https://www.burakaltundal.com/gunceler/daedalusun-labirenti/">
+                <a href="https://www.burakaltundal.com/gunceler/daedalusun-labirenti/" class="inverse">
                     Günce: Daedalus&#39;un labirenti 
                 </a>
-                <i class="when">14.04.2020, Eyüp
-                </i>
             </h2>
+            
+            <div class="post-summary">    
+                
+                
+                <div class="post-picture"><img  src="/images/eda-dereci-pencere.jpg" alt="[İllüstrasyon Eda Dereci](https://www.instagram.com/p/B2yR-QwgJUW/)" /><em><a href="https://www.instagram.com/p/B2yR-QwgJUW/">İllüstrasyon Eda Dereci</a></em></div><blockquote><p>‘Dişlerimin arasından gösteriyorum ellerimi<br>Korkuyla kaçışıyor güvercinle karanfil’*</blockquote><p>Yüksek duvarların ortasındaki koltuğumda oturuyorum. Saldırmam sağ elimin altında her zaman hazır. Burada güvendeyim. Dışarıdan bakan hiç kimse beni göremiyor ama ben herkesi görebiliyorum. Kimse beni duyamıyor çünkü burada oturduğum zamanlarda hiç kimseye anlatacak bir şeyim yok. Bense sadece duymak istediğim kadar, duymak istediğim şekilde duyuyorum.
+                
+                <a class="read-more inverse" href="/gunceler/daedalusun-labirenti/">devamı...</a>
+            </div>
+            
             <div class="post-footer">
-                <p><blockquote>
-<p><img src="/images/eda-dereci-pencere.jpg" alt="İllüstrasyon Eda Dereci"> <a href="https://www.instagram.com/p/B2yR-QwgJUW/">İllüstrasyon Eda Dereci</a></p>
-</blockquote>
-<blockquote>
-<p><em>‘Dişlerimin arasından gösteriyorum ellerimi<br>
-Korkuyla kaçışıyor güvercinle karanfil’*</em></p>
-</blockquote>
-<p>Yüksek duvarların ortasındaki koltuğumda oturuyorum. Saldırmam sağ elimin altında her zaman hazır. Burada güvendeyim. Dışarıdan bakan hiç kimse beni göremiyor ama ben herkesi görebiliyorum. Kimse beni duyamıyor çünkü burada oturduğum zamanlarda hiç kimseye anlatacak bir şeyim yok. Bense sadece duymak istediğim kadar, duymak istediğim şekilde duyuyorum.</p></p>
-
-                
-                Kategori:
-                
-                    <a class="tag" href="/kategori/g%C3%BCnce">#günce</a>
-                
-                
-                Etiket: 
-                
-                     <a class="tag" href="/etiket/daedalus">#daedalus</a>
-                
-                     <a class="tag" href="/etiket/labirent">#labirent</a>
-                
-                
-                
-                    <a class="read-more" href="/gunceler/daedalusun-labirenti/">Devamını oku...</a>
-                
-            </div> 
-           
+                <span>
+                    
+                        <a class="tag" href="/kategori/g%C3%BCnce">#günce</a>
+                    
+                    <i class="when">14.04.2020, Eyüp
+                        </i>
+                </span>
+            </div>
         </article>
         
         <article>
             <h2>
-                <a href="https://www.burakaltundal.com/gunceler/cagrilan-yakup/">
+                <a href="https://www.burakaltundal.com/gunceler/cagrilan-yakup/" class="inverse">
                     Günce: Çağrılan Yakup 
                 </a>
-                <i class="when">30.03.2020, Eyüp
-                </i>
             </h2>
+            
+            <div class="post-summary">    
+                
+                
+                <div class="post-picture"><img  src="/images/eda-dereci-iki.jpg" alt="[İllüstrasyon Eda Dereci](https://www.instagram.com/p/BzLVQT2A1tU)" /><em><a href="https://www.instagram.com/p/BzLVQT2A1tU">İllüstrasyon Eda Dereci</a></em></div><blockquote><p>‘Ben, yani Yakup, her türlü çağrılmanın olağan şekli<br>Daha hiç çağrılmadım’*</blockquote><p>Geldin mi Yakup? Çağrılmayan tarafım benim. Ben dahil hiç kimsenin çağırmadığı. Geldin mi? Hep çağrılmadığı yerden fırtanım benim. Hoş geldin. İkiliğim. Geç otur. Seninle ne konuşulur hiç bilmiyorum.
+                
+                <a class="read-more inverse" href="/gunceler/cagrilan-yakup/">devamı...</a>
+            </div>
+            
             <div class="post-footer">
-                <p><blockquote>
-<p><img src="/images/eda-dereci-iki.jpg" alt="İllüstrasyon Eda Dereci"> <a href="https://www.instagram.com/p/BzLVQT2A1tU">İllüstrasyon Eda Dereci</a></p>
-</blockquote>
-<blockquote>
-<p><em>‘Ben, yani Yakup, her türlü çağrılmanın olağan şekli<br>
-Daha hiç çağrılmadım’*</em></p>
-</blockquote>
-<p>Geldin mi Yakup? Çağrılmayan tarafım benim. Ben dahil hiç kimsenin çağırmadığı. Geldin mi? Hep çağrılmadığı yerden fırtanım benim. Hoş geldin. İkiliğim. Geç otur. Seninle ne konuşulur hiç bilmiyorum.</p></p>
-
-                
-                Kategori:
-                
-                    <a class="tag" href="/kategori/g%C3%BCnce">#günce</a>
-                
-                
-                Etiket: 
-                
-                     <a class="tag" href="/etiket/yakup">#yakup</a>
-                
-                     <a class="tag" href="/etiket/edip-cansever">#edip cansever</a>
-                
-                     <a class="tag" href="/etiket/%C3%A7a%C4%9Fr%C4%B1lmayan-yakup">#çağrılmayan yakup</a>
-                
-                
-                
-                    <a class="read-more" href="/gunceler/cagrilan-yakup/">Devamını oku...</a>
-                
-            </div> 
-           
+                <span>
+                    
+                        <a class="tag" href="/kategori/g%C3%BCnce">#günce</a>
+                    
+                    <i class="when">30.03.2020, Eyüp
+                        </i>
+                </span>
+            </div>
         </article>
         
         <article>
             <h2>
-                <a href="https://www.burakaltundal.com/gunceler/vamos-y-mil-pasos/">
+                <a href="https://www.burakaltundal.com/gunceler/vamos-y-mil-pasos/" class="inverse">
                     Günce: Vamos y mil pasos 
                 </a>
-                <i class="when">25.03.2020, Eyüp
-                </i>
             </h2>
+            
+            <div class="post-summary">    
+                
+                
+                <blockquote><p><img src="/images/eda-dereci-kirmizi.jpg" alt="İllüstrasyon Eda Dereci"> <a href="https://www.instagram.com/p/BvJlHrHgcWG">İllüstrasyon Eda Dereci</a></blockquote><blockquote><p><em>‘Oysa bütün yaşamlar bitti<br>İlkyazlar ve bütün başlangıçlar’*</em></blockquote><p>Aynı şeyleri farklı biçimlerde denemenin vakti geldi sanırım. Ne kadar aynı şeyi yapmak gibi bir his. Bir o kadar da farklı hissettiriyor. Filmlerdeki gibi garaja girip eski arabanın üzerindeki örtüyü kaldırıp şöyle bir bakıyorum. Çalışır mı acaba diye düşünüyorum. Araba eski değil. Yıllardır hep aynı yerde durduğu doğru ama hiç aynı araba olmadı. Eski bir yenilik, yeni bir eskilik. Her ikisi de sevindiriyor beni.
+                
+                <a class="read-more inverse" href="/gunceler/vamos-y-mil-pasos/">devamı...</a>
+            </div>
+            
             <div class="post-footer">
-                <p><blockquote>
-<p><img src="/images/eda-dereci-kirmizi.jpg" alt="İllüstrasyon Eda Dereci"> <a href="https://www.instagram.com/p/BvJlHrHgcWG">İllüstrasyon Eda Dereci</a></p>
-</blockquote>
-<blockquote>
-<p><em>‘Oysa bütün yaşamlar bitti<br>
-İlkyazlar ve bütün başlangıçlar’*</em></p>
-</blockquote>
-<p>Aynı şeyleri farklı biçimlerde denemenin vakti geldi sanırım. Ne kadar aynı şeyi yapmak gibi bir his. Bir o kadar da farklı hissettiriyor. Filmlerdeki gibi garaja girip eski arabanın üzerindeki örtüyü kaldırıp şöyle bir bakıyorum. Çalışır mı acaba diye düşünüyorum. Araba eski değil. Yıllardır hep aynı yerde durduğu doğru ama hiç aynı araba olmadı. Eski bir yenilik, yeni bir eskilik. Her ikisi de sevindiriyor beni.</p></p>
-
-                
-                Kategori:
-                
-                    <a class="tag" href="/kategori/g%C3%BCnce">#günce</a>
-                
-                
-                Etiket: 
-                
-                     <a class="tag" href="/etiket/ilk-yaz">#ilk yaz</a>
-                
-                     <a class="tag" href="/etiket/mil-pasos">#mil pasos</a>
-                
-                
-                
-                    <a class="read-more" href="/gunceler/vamos-y-mil-pasos/">Devamını oku...</a>
-                
-            </div> 
-           
+                <span>
+                    
+                        <a class="tag" href="/kategori/g%C3%BCnce">#günce</a>
+                    
+                    <i class="when">25.03.2020, Eyüp
+                        </i>
+                </span>
+            </div>
         </article>
         
         <article>
             <h2>
-                <a href="https://www.burakaltundal.com/yazilar/keske-yazabilsem/">
+                <a href="https://www.burakaltundal.com/yazilar/keske-yazabilsem/" class="inverse">
                     Keşke yazabilsem… 
                 </a>
-                <i class="when">01.01.2014, Leicester
-                </i>
             </h2>
+            
+            <div class="post-summary">    
+                
+                
+                <p><em>Yazının orjinali daha önce <a href="https://themahmut.com/2018/07/11/cenaze/">Mahmut&rsquo;ta yayınlandı</a>. Ev sahiplikleri için teşekkürler.</em><br/><br/>Yıllar önce Asaf’la sohbet ederken onun da aynı şekilde hissettiğini öğrendiğimde önce biraz şaşırmış, sonra “dert aynı dert” diye düşünmüştüm. Yazmak bana hep çok sınırlı bir anlatma biçimi olarak gelmiştir. Bazen kendimi çaresiz hissederim o anı istediğim gibi yazamadığım için. Kelimenin, dizenin sınırından şikayet ederim. Mesela keman çalabilsem, yazmazdım. O kadar sonsuz ve çok anlatabilme olanağı var ki müzikte. Bu biraz resim için de böyle gelir bana. Bir forma, anlatma düzenine girmek zorunda olmamak…<br/><br/>Birçok şey var yıllar içinde sözcükle anlatabilmenin yolunu bulamadığım. İki tanesi çok belirgin. Kaç kez içimden geçti, kaç kez istedim, denedim, sayısını bile anımsayamıyorum. Hep sözcüklerin, kendi sözcüklerimin yetemeyişine kızgınlıkla kaldığım.
+                
+                <a class="read-more inverse" href="/yazilar/keske-yazabilsem/">devamı...</a>
+            </div>
+            
             <div class="post-footer">
-                <p><p><em>Yazının orjinali daha önce <a href="https://themahmut.com/2018/07/11/cenaze/">Mahmut&rsquo;ta yayınlandı</a>. Ev sahiplikleri için teşekkürler.</em></p>
-<p>Yıllar önce Asaf’la sohbet ederken onun da aynı şekilde hissettiğini öğrendiğimde önce biraz şaşırmış, sonra “dert aynı dert” diye düşünmüştüm. Yazmak bana hep çok sınırlı bir anlatma biçimi olarak gelmiştir. Bazen kendimi çaresiz hissederim o anı istediğim gibi yazamadığım için. Kelimenin, dizenin sınırından şikayet ederim. Mesela keman çalabilsem, yazmazdım. O kadar sonsuz ve çok anlatabilme olanağı var ki müzikte. Bu biraz resim için de böyle gelir bana. Bir forma, anlatma düzenine girmek zorunda olmamak…</p>
-<p>Birçok şey var yıllar içinde sözcükle anlatabilmenin yolunu bulamadığım. İki tanesi çok belirgin. Kaç kez içimden geçti, kaç kez istedim, denedim, sayısını bile anımsayamıyorum. Hep sözcüklerin, kendi sözcüklerimin yetemeyişine kızgınlıkla kaldığım.</p></p>
-
-                
-                Kategori:
-                
-                    <a class="tag" href="/kategori/yaz%C4%B1">#yazı</a>
-                
-                
-                Etiket: 
-                
-                     <a class="tag" href="/etiket/eski-yaz%C4%B1lar">#eski yazılar</a>
-                
-                     <a class="tag" href="/etiket/mahmut">#mahmut</a>
-                
-                
-                
-                    <a class="read-more" href="/yazilar/keske-yazabilsem/">Devamını oku...</a>
-                
-            </div> 
-           
+                <span>
+                    
+                        <a class="tag" href="/kategori/yaz%C4%B1">#yazı</a>
+                    
+                    <i class="when">01.01.2014, Leicester
+                        </i>
+                </span>
+            </div>
         </article>
         
         <article>
             <h2>
-                <a href="https://www.burakaltundal.com/yazilar/ersin-ve-kimi-cirkinlikler/">
+                <a href="https://www.burakaltundal.com/yazilar/ersin-ve-kimi-cirkinlikler/" class="inverse">
                     Ersin ve kimi çirkinlikler 
                 </a>
-                <i class="when">30.08.2018</i>
             </h2>
+            
+            <div class="post-summary">    
+                
+                
+                <p><em>Yazının orjinali daha önce <a href="https://themahmut.com/2018/08/30/ersin-ve-kimi-cirkinlikler/">Mahmut&rsquo;ta yayınlandı</a>. Ev sahiplikleri için teşekkürler.</em><br/><br/>Hayatım boyunca ciddiye alınabilecek bir durumda doğrudan çirkin olduğumu söyleyen olmadı. Söyleyen olmamış olması benim çirkin olmadığımı ya da insanların nazik olduğunu ispatlamıyor. Kendimi bazen hoş bulduğum doğrudur ama daha çok; çirkin olmadığımı, normal olduğumu düşünürüm. Keyfim olmadığında ben de kendimi çirkin buluyorum. Bu hissiyata yakışıklı olmamam dışında kendime ve hayata bakışımdaki diğer arızalar da dahil.
+                
+                <a class="read-more inverse" href="/yazilar/ersin-ve-kimi-cirkinlikler/">devamı...</a>
+            </div>
+            
             <div class="post-footer">
-                <p><p><em>Yazının orjinali daha önce <a href="https://themahmut.com/2018/08/30/ersin-ve-kimi-cirkinlikler/">Mahmut&rsquo;ta yayınlandı</a>. Ev sahiplikleri için teşekkürler.</em></p>
-<p>Hayatım boyunca ciddiye alınabilecek bir durumda doğrudan çirkin olduğumu söyleyen olmadı. Söyleyen olmamış olması benim çirkin olmadığımı ya da insanların nazik olduğunu ispatlamıyor. Kendimi bazen hoş bulduğum doğrudur ama daha çok; çirkin olmadığımı, normal olduğumu düşünürüm. Keyfim olmadığında ben de kendimi çirkin buluyorum. Bu hissiyata yakışıklı olmamam dışında kendime ve hayata bakışımdaki diğer arızalar da dahil.</p></p>
-
-                
-                Kategori:
-                
-                    <a class="tag" href="/kategori/yaz%C4%B1">#yazı</a>
-                
-                
-                Etiket: 
-                
-                     <a class="tag" href="/etiket/eski-yaz%C4%B1lar">#eski yazılar</a>
-                
-                     <a class="tag" href="/etiket/mahmut">#mahmut</a>
-                
-                
-                
-                    <a class="read-more" href="/yazilar/ersin-ve-kimi-cirkinlikler/">Devamını oku...</a>
-                
-            </div> 
-           
-        </article>
-        
-        <article>
-            <h2>
-                <a href="https://www.burakaltundal.com/yazilar/cenaze/">
-                    Cenaze 
-                </a>
-                <i class="when">11.07.2018</i>
-            </h2>
-            <div class="post-footer">
-                <p><p><em>Yazının orjinali daha önce <a href="https://themahmut.com/2018/07/11/cenaze/">Mahmut&rsquo;ta yayınlandı</a>. Ev sahiplikleri için teşekkürler.</em></p>
-<p>John F. Kennedy havaalanının çıkışındaki yüzlere bakarken, hiç gelmediğim bu şehre dair nasıl bu kadar kızgın, kırgın, özlemiş, heyecanlı olabildiğimi anlamaya çalışıyorum. Kapıdan çıkan herkesin bir bekleyeni var sanki. Ben hariç. Mr şey, Mrs şey, Mr bir şey daha, Mr diğer şey. Gelmeyeceğini biliyorum.</p></p>
-
-                
-                Kategori:
-                
-                    <a class="tag" href="/kategori/yaz%C4%B1">#yazı</a>
-                
-                
-                Etiket: 
-                
-                     <a class="tag" href="/etiket/eski-yaz%C4%B1lar">#eski yazılar</a>
-                
-                     <a class="tag" href="/etiket/mahmut">#mahmut</a>
-                
-                
-                
-                    <a class="read-more" href="/yazilar/cenaze/">Devamını oku...</a>
-                
-            </div> 
-           
+                <span>
+                    
+                        <a class="tag" href="/kategori/yaz%C4%B1">#yazı</a>
+                    
+                    <i class="when">30.08.2018</i>
+                </span>
+            </div>
         </article>
         
     </div>
@@ -625,19 +567,20 @@ Daha hiç çağrılmadım’*</em></p>
         <div class="paginator">
         
         
-        <p>Page 2 of 3</p>
+        
         <div class="paginator-group">
             
-            <a class="color-link" href="/">
-                    <svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
-                        <g class="color-arrow" fill="#63BDA2" fill-rule="nonzero">
-                            <polygon id="Path" points="1.75929935 4.50000282 5.3292523 7.62371165 4.6707477 8.37628835 0.240700645 4.49999718 4.67081049 0.623709205 5.32930951 1.37629079"></polygon>
-                            <polygon id="Path" points="13 4 13 5 1 5 1 4"></polygon>
-                        </g>
-                </svg>  
-                Yeni          
-            </a>
+                <a class="color-link" href="/">
+                        <svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+                            <g class="color-arrow" fill="#63BDA2" fill-rule="nonzero">
+                                <polygon id="Path" points="1.75929935 4.50000282 5.3292523 7.62371165 4.6707477 8.37628835 0.240700645 4.49999718 4.67081049 0.623709205 5.32930951 1.37629079"></polygon>
+                                <polygon id="Path" points="13 4 13 5 1 5 1 4"></polygon>
+                            </g>
+                    </svg>  
+                    Yeni          
+                </a>
             
+            <label style="font-size: 0.9rem; margin:0;"> 2 | 3</label>
             
                 <a class="color-link older" href="/page/3/">
                     Eski
@@ -656,7 +599,7 @@ Daha hiç çağrılmadım’*</em></p>
 
 <footer>
   <small>
-    &copy; Hakları saklı değildir, bağlantı verme nezaketini göstermeniz yeterli. Burak Altundal, 2021.
+    &copy; Hakları saklı değildir, bağlantı verme nezaketini göstermeniz yeterli. Burak Altundal, 2022. ツ
   </small>
 </footer>
 </div> 
@@ -668,5 +611,4 @@ Daha hiç çağrılmadım’*</em></p>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
   integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>
-
 </html>

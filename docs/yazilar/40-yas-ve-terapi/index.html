@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <title>
+      40. yaş ve terapi &bull; Burak Altundal
+    
+  </title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#161819">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.burakaltundal.com/buyucu.png"/>
+
+<meta name="twitter:title" content="40. yaş ve terapi"/>
+<meta name="twitter:description" content="40. yaş ve terapi"/>
+
+  
+
+  <style>
+  :root{
+    --main-color: #333745;
+    --active-color: #e63462;
+    --buyucu-color: #e63462;
+    --border-color: #eef5db;
+  }
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    margin: auto;
+    color: var(--main-color);
+    max-width: 50em;
+  }
+
+  a{
+    color: var(--active-color);
+  }
+  
+  a:hover,a:active,a:focus{
+    color: var(--main-color);
+    text-decoration: none;
+  }
+
+  a.inverse{
+    color: var(--main-color) !important;
+  }
+  
+  a.inverse:hover,a.inverse:active,a.inverse:focus{
+    color: var(--active-color) !important;
+  }
+
+  .read-more{
+    font-weight: normal;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .post-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .post-footer .read-more{
+    align-self: flex-end;
+  }
+
+  .paginator-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .when{
+    font-size: 0.9rem;
+    font-weight: normal;
+  }
+
+  .when-post{
+    float: right;
+    text-align: right;
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+
+  article{
+    margin-bottom: 15px;
+  }
+  
+   .blog-post-content,.post-summary{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: 300; 
+    
+  }
+
+  .post-footer{
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+  }
+
+  .blog-post-content {
+    min-height: 150px;
+    margin-bottom: 20px;
+  }
+
+  .post-picture{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 0.9rem;
+  }
+
+  .post-picture em{
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .post-picture img{
+    display: block;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .blog-post-content img, article img{
+    display: block;
+    max-width: 75%;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar-brand{
+    font-size: 24px;
+    display: flex;
+    align-items:center;
+    position: relative;
+  }
+  
+  .navbar-brand img{
+    max-height: 40px;
+  }
+
+  .buyucu{
+    font-size: 0.75rem;
+    position: absolute;
+    right: -32px;
+    bottom: 0;
+    color: var(--buyucu-color);
+  }
+
+  .buyucu-art{
+    margin-right: 10px;
+  }
+
+  .navbar-brand:hover .buyucu,.navbar-brand:hover img{
+    color: var(--main-color);
+    
+  }
+
+  blockquote {
+    margin: 10px 0;
+    font-size: 0.9em;
+    font-style: italic; 
+  }
+
+  blockquote em{
+    display: block;
+    text-align: left;
+  }
+
+  .posts-listing li {
+    list-style-type: none;
+  }
+
+  
+
+  .navbar {
+    padding: 5px 0 0 0;
+    margin-bottom: 25px;
+    margin-top: 0;
+    border-bottom: 1px solid var(--border-color);
+    justify-content: space-between;
+  }
+
+  .navbar-right{
+    flex-grow: 0 !important;
+  }
+
+  .not-found{
+    text-align: center;
+  }
+
+  .date-time-title{
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .date-share a{
+    color: dimgrey;
+    font-size: 10px;
+  }
+
+  a.nav-item{
+    color: dimgrey !important;
+    font-size: 0.9rem;
+  }
+  h1,h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  h4  {
+    font-size: 1.2rem;
+  }
+
+  h5  {
+    font-size: 1rem;
+  }
+
+  h6  {
+    font-size: 0.8rem;
+  }
+
+  code {
+    font-family: 'Ubuntu Mono', monospace;
+    white-space: pre;
+    overflow-x: auto;
+  }
+
+  pre {
+    overflow-x: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background-color: #efefef
+  }
+
+  footer  {
+    text-align: center;
+    margin: 15px auto;
+  }
+</style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-light">
+
+      <a href="/" class="navbar-brand align-items-left inverse">
+        <img class="buyucu-art" src="/buyucu.svg" alt="Ayazda bir kertenkele"/>burak altundal
+
+        
+        <div class="buyucu">
+           büyücü
+        </div>
+      
+      </a>
+      
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation" name="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-right navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          
+            <a class="inverse nav-item nav-link " href="/kategori/">Kategoriler</a>
+          
+            <a class="inverse nav-item nav-link " href="/kim/">Kim?</a>
+          
+          <a class="inverse nav-item nav-link" href="https://www.burakaltundal.com/index.xml" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
+        </div>
+      </div>
+
+    </nav>
+
+<div class="blog-post">
+  <h1>40. yaş ve terapi 
+    <i class="when-post">15.11.2020, Tavak
+    
+    , 24.09.2022 Sidney
+    
+    </i></h1>
+  <div class="blog-post-subheader">
+    
+  </div>
+  <div class="blog-post-content">
+    <p>Bu yazıyı yazmaya iki yıl önce ‘100. seans ve 3.5 yıllık terapinin ardından’ diye başlamıştım. Hiç bitirip yayınlamadım. Bugün artık 5 yıl ve 175 seanstan fazla olmuş. Yarın 40 oluyorum ve bu güzel yaşın, doğum gününü kutlamanın en güzel yolunun, terapiden bahsetmek olduğunu hissediyorum.</p>
+<p>İnsan günlük hayatında her şey yolundayken bile ne yükler taşıdığını, ne zahmetler çektiğini ancak o yükleri sırtından indirebildiğinde anlıyor. İşler yolunda değilken zaten bir kamyon yük taşıyoruz. Terapi insanın bildiği, bilmediği yüklerini sırtından indiriyor. Birileri bana üç sene önce deseydi ki bir şeylerle uğraşacaksın, zahmet çekeceksin ve sonra böyle güzel duygular hissedeceksin, hayata, kendine bu kadar farklı bakacaksın. İnanmazdım. İnanamazdım. Terapinin hayatımda değiştirdiği şeylerin güzelliğini herhalde sadece o yolculuğu yapanlara anlatmak mümkün olabilir. Bugün bile tarif etmekte zorluk çekiyorum. Terapi tam olarak ‘kişisel’ bir mucize ya da insanın kendini yeniden doğurup, büyütmesi gibi birşey.</p>
+<p>Terapinin bu kadar faydalı olacağını, hayatımı bu kadar değiştireceğini bilseydim yıllar önce başlardım diye hayıflanıyorum bazen. Bu sadece bir hayıflanma çünkü hayatta her şeyin zamanı olduğu gibi değişme isteğinin de bir zamanı var. Terapiye dönemsel ya da belli başlı konuların çözülmesi için gidilebilir, gidiliyor. Benim anlattıklarım daha çok uzun dönemli, temel sorunların çözümü ile ilgili.</p>
+<p>Terapiye başlamak çok düşünülecek bir karar olmayabilir ama terapiyi sürdürmek gerçekten zahmetli. Terapiyi sürdürebilmek için değişmek isteğinin sürekliliğine ihtiyaç var. Yıllar önce başlasaydım(ki başladım) sürdürmezdim(sürdürmedim). Bu yıllar içinde terapiye giden bir çok insanla sohbet ettim, sorularını yanıtladım. En çok şaşırdığım şey, terapinin haftadan haftaya gidilip, terapistle dertleşilen, rahatlanan bir şey olduğunun düşünülmesi oldu. Terapi bir tedavi yöntemi. ‘Mucizevi’ bir tedavi yöntemi ama her tedavi yöntemi gibi zamanla iyileşiyor olsa bile, danışan için çok zor ve uzun bir yolculuk. O yüzden başlayanı çok, sürdüreni az. Bunun en önemli sebebi terapi ilerledikçe insanın yolculuğun kendi yolculuğu olduğunu fark etmesi oluyor sanırım. Terapistin üstün yetenekleri olan (olması gereken), çok akıllı ve sizin dertlerinizi çözen kişi değil de sadece size yol gösteren, kendinizle yüzleştiren ve çok zahmetli olduğu dönemlerde size destek olan biri olduğu anlaşıldığında.</p>
+<p>İnsan dertlerini mümkünse başkası anlasın, çözsün, destek olsun istiyor. Sadece terapistinden de istemiyor bunu, sevgilisinden, arkadaşından, ailesinden. İnsan dertleri çabuk, kolay çözülsün istiyor. İstiyor ki sorunun ne olduğunu anladığında ya da terapisti anlattığında sorunlar çözülmüş olsun. Evreka evreka diye kendi iç dünyasından zırt diye çıkabilsin. Ama maalesef doğduğumuz günden yetişkin olduğumuz yaşlara kadar başımıza gelenlerin çabuk ve az zahmetli bir çözümü yok. İnsanın kendisinden başkasının yürüyebileceği bir yol da değil. Terapist iyi, güvenilir bir yol arkadaşı sadece. Ama yolu yürüyecek olan insanın kendisi.</p>
+<p>İyi hissetmekle iyileşmek aynı şeyler değil. Tedavi yöntemi demiştim benzetmesi doğru mu bilmiyorum ama doğduğu günden itibaren yıllar boyunca kanser yapıcı şeylere maruz kalıp sonra da kanser olmuş bir insanın tedavisi gibi. Ağrı kesiciler size iyi hissettirebilir, bazı doktorlar size kolay ve çabuk mucizeler anlatabilir. Ama öyle bir mucize ne kanser için ne de ruh sağlığı için yok. Belki kanser için tıp ilerledikçe bulunur, iç dünya için bulunma ihtimali yok.</p>
+<p>Terapi boyunca insanın kendinden utandığı, nefret ettiği oluyor. Terapistine, yüzleştiklerine kızdığı oluyor. Çaresiz hissettiği, aynı sorunları tekrar tekrar yaşamaya devam ettiği birçok dönem oluyor. Benim hatırladığım en az 7-8 kez bu ve başka nedenlerden terapiyi bırakmaya karar verdim. Ama bırakmayın. Kestirme yollara da inanmayın. Uzun da olsa, zor da olsa geçeceğiniz karanlık tünellerin sonunda hayatınızda hiç görmediğiniz, tarif bile edemeyeceğiniz güzellikleri göreceksiniz. Dönemsel sonuçlarına değil de yolunuza bakın. Bugünden bakınca sonuçlarının ne olacağı bilinmeyen bir geleceğe bakmanın, inanmanın çok zor olduğunu biliyorum.</p>
+<p>İnanamadığınız günlerde bile bilin ki hepsi geçiyor.</p>
+<p>Bütün bu yıllar boyunca en sık sorulan sorularla bitireyim.</p>
+<h3 id="--x-terapisi-bir-seansta-iki-üç-beş-de-olabilir-yyi-çözüyormuş">- X terapisi bir seansta (iki üç beş de olabilir) Y’yi çözüyormuş.</h3>
+<p>Bu X ve Y’nin yerine gördüğünüz, duyduğunuz herhangi bir yöntemi ya da derdinizi koyabilirsiniz. İyi hissetmekle, iyileşmek aynı şeyler değil. İyi hissettiriyorsa her şeyi yapın tabii. Ama dertlerinizin kalıcı olarak çözülmediğini gördüğünüzdeki yaşayacağınız hayal kırıklığı garantili. İnsan zamanla ve yıllar içinde bozuluyor o yüzden çabuk çözülebilecek bir derdi yok.</p>
+<h3 id="--terapistim-yeterince-iyi-ve-akıllı-değil-sanırım-yöntemi-ve-alanı-doğru-değil">- Terapistim yeterince iyi ve akıllı değil sanırım? Yöntemi ve alanı doğru değil?</h3>
+<p>Terapi ruhen çok zahmetli, maddi olarak da külfetli bir yolculuk. O yüzden terapistinizi gerçekten iyi araştırın. Tabii ki her alanda olduğu gibi yetkin olan, olmayan, işini iyi yapan yapmayan terapistler var. Bir danışana daha iyi gelen, gelmeyen yaklaşımlar var.</p>
+<p>Böyle düşündüğünüz, hissettiğiniz zamanlarda terapistinizle neden böyle düşündüğünüzü, hissettiğinizi açıkça konuşmak hem terapi süreciniz hem de kendinizi anlamak için çok faydalı olacaktır. Bir de terapistinizin ‘çok zeki’(sizden zeki) olup olmamasının bir önemi yok tabii. Size yardımcı olacak kadar alanında bilgili olması yeterli. Yani kardiyoloğa gitmeden IQ testi mi soruyorsunuz doktorunuza :)?</p>
+<h3 id="--terapistim-hep-bildiğim-şeyleri-anlatıyor">- Terapistim hep bildiğim şeyleri anlatıyor</h3>
+<p>Terapistler çoğunlukla bildiğimiz şeyleri anlatır ve ısrar ederler. Çünkü değişmek sadece bilmekle ilgili bir mesele değil. Hatta insanın değişmekle ilgili en büyük yanılgısı bilmek/anlamak sanırım. Bilmek sadece değişimin ön şartı hatta belki de en kolay kısmı. Zor olanı yıllar içinde oluşmuş olan çarpık alışkanlıkların, duyguların değişmesi. Terapistiniz size sadece bunu hatırlatıyor. Bunun için gerekli zahmeti çekmesi gereken, zamanı harcaması gereken sizsiniz.</p>
+<h3 id="--terapistim-beni-yanlış-yönlendiriyor-anlamıyor">- Terapistim beni yanlış yönlendiriyor, anlamıyor</h3>
+<p>Terapi de olsa insanın bazı şeyleri kabul etmesi, konuşulabilir hale gelmesi uzun zaman alıyor. Terapiden ve terapistten şüphe etmek de nefret etmek de, yetersiz bulmak da terapinin normal bir parçası. Terapistinizin muhtemelen alanında uzmanlığı olan ve sizin kötülüğünüzü değil iyiliğinizi isteyen biri olduğunu unutmamaya çalışın.</p>
+<h3 id="--seanslar-bana-iyi-geliyor-rahatlıyorum">- Seanslar bana iyi geliyor, rahatlıyorum</h3>
+<p>İstisnaları vardır ama istisnaları çıkarırsak geriye iki ihtimal kalıyor. Biri terapistinizi sorgulamanızın iyi olabileceği, ikincisi de terapiden beklentiniz. Her ikisi de olabilir. Seansa ne götürürseniz terapistiniz sizinle onu konuşuyor ve bazı terapistler size iyi hissettirmeyi daha doğru bir iş modeli olarak benimsemiş olabilir. Eğer terapiye iyi hissetmek için gidiyorsanız ve paranız da varsa ne mutlu size.</p>
+    
+      <time>13/11/2022 tarihinde yayınlandı.</time>
+    
+  </div>
+  
+</div>
+
+<footer>
+  <small>
+    &copy; Hakları saklı değildir, bağlantı verme nezaketini göstermeniz yeterli. Burak Altundal, 2022. ツ
+  </small>
+</footer>
+</div> 
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+  integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>

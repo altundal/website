@@ -5,17 +5,11 @@ when: "21.02.2021"
 where: "Tavak"
 description: "Love in the time of Corona"
 images: ["/images/gokce-erbil-passenger.jpg"]
-etiket: [
-    "letter",
-    "corona",
-    "love",
-    "Gabriel García Márquez"
-]
-kategori : ["mektup"]
-
+etiket: ["letter", "corona", "love", "Gabriel García Márquez"]
+kategori: ["mektup"]
 ---
 
->![Gökçe Erbil](/images/gokce-erbil-passenger.jpg) Gökçe Erbil
+{{< picture src="/images/gokce-erbil-passenger.jpg" title="Gökçe Erbil" >}}
 
 Dear passenger\*,
 
@@ -30,6 +24,5 @@ You’re on your way to the end of the world, well almost and there’s New Zeal
 \* To the passenger who chose to walk with me, this is your very first call on board to an unknown destination. Hopefully a beautiful\*\* one.
 
 \*\* Since “beautiful” falls short to describe you in anyways, I owe us a new adjective.
-
 
 NOTE: Many thanks to Emily Beyda for reviewing and editing.

@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
     integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  
   <title>
       Ergin Günçe &bull; Burak Altundal
     
@@ -21,7 +23,7 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://www.burakaltundal.com/kertenkele.png"/>
+<meta name="twitter:image" content="https://www.burakaltundal.com/buyucu.png"/>
 
 <meta name="twitter:title" content="Ergin Günçe"/>
 <meta name="twitter:description" content="Burak Altundal | büyücü"/>
@@ -31,124 +33,175 @@
   
 
   <style>
+  :root{
+    --main-color: #333745;
+    --active-color: #e63462;
+    --buyucu-color: #e63462;
+    --border-color: #eef5db;
+  }
+
   body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin: auto;
+    color: var(--main-color);
     max-width: 50em;
   }
 
   a{
-    color: #6496cc;
+    color: var(--active-color);
+  }
+  
+  a:hover,a:active,a:focus{
+    color: var(--main-color);
+    text-decoration: none;
   }
 
-  #page-title {
-      text-align: center;
+  a.inverse{
+    color: var(--main-color) !important;
   }
-
-  #page-title h1 a {
-      color: black;
-      font-size: 2.7rem;
+  
+  a.inverse:hover,a.inverse:active,a.inverse:focus{
+    color: var(--active-color) !important;
   }
 
   .read-more{
-      float: right;
-  }
-
-  #author-name h6 a {
-    color: black;
     font-weight: normal;
-    font-size: small;
+    font-family: 'Nunito', sans-serif;
   }
 
-  #page-title a:hover, .post a:hover {
-      text-decoration: underline;
+  .post-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .post-footer .read-more{
+    align-self: flex-end;
+  }
+
+  .paginator-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .when{
-    font-size: 15px;
-    float: right;
-    margin-top: 6px;
+    font-size: 0.9rem;
     font-weight: normal;
   }
 
-  article h2 , h1{
-    font-size: 22px !important;
-    margin-top: 15px;
-    font-weight: bold;
+  .when-post{
+    float: right;
+    text-align: right;
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+
+  article{
+    margin-bottom: 15px;
   }
   
-  article h2 a, .blog-post h1 a{
-    color: black;
+   .blog-post-content,.post-summary{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: 300; 
+    
   }
-  
-  article, .blog-post-content {
-    font-size: 16px;
-    font-family: 'Ubuntu Mono', monospace;
-    border-bottom: 1px solid #d8d7d7;
+
+  .post-footer{
+    border-bottom: 1px solid var(--border-color);
     padding-bottom: 10px;
   }
 
-  .date-time-title, .article-content h2 {
-      font-family: 'Ubuntu Mono', monospace;
+  .blog-post-content {
+    min-height: 150px;
+    margin-bottom: 20px;
+  }
+
+  .post-picture{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 0.9rem;
+  }
+
+  .post-picture em{
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .post-picture img{
+    display: block;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .blog-post-content img, article img{
     display: block;
     max-width: 75%;
+    max-height: 400px;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .blog-post-content time{
-
   }
 
   .navbar-brand{
     font-size: 24px;
     display: flex;
     align-items:center;
+    position: relative;
   }
-
+  
   .navbar-brand img{
     max-height: 40px;
   }
 
-  .description{
-    font-size: 14px;
+  .buyucu{
+    font-size: 0.75rem;
+    position: absolute;
+    right: -32px;
+    bottom: 0;
+    color: var(--buyucu-color);
+  }
+
+  .buyucu-art{
+    margin-right: 10px;
+  }
+
+  .navbar-brand:hover .buyucu,.navbar-brand:hover img{
+    color: var(--main-color);
+    
   }
 
   blockquote {
-    margin: 20px 0;
-    font-size: 85%;
-  }
-
-  blockquote p{
-    text-align: center;
+    margin: 10px 0;
+    font-size: 0.9em;
+    font-style: italic; 
   }
 
   blockquote em{
     display: block;
     text-align: left;
-    font-style: italic;
   }
 
   .posts-listing li {
     list-style-type: none;
   }
 
-  .navbar-right {
-    justify-content: flex-end;
-  }
+  
 
   .navbar {
     padding: 5px 0 0 0;
-    border-bottom: 1px solid #908f8f;
-    margin-bottom: 0;
+    margin-bottom: 25px;
     margin-top: 0;
+    border-bottom: 1px solid var(--border-color);
+    justify-content: space-between;
   }
 
-  .nav-link {
-    font-size: 14px;
+  .navbar-right{
+    flex-grow: 0 !important;
   }
 
   .not-found{
@@ -157,7 +210,7 @@
 
   .date-time-title{
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
   }
 
   .date-share a{
@@ -165,22 +218,16 @@
     font-size: 10px;
   }
 
-  .blog-post-content {
-    min-height: 150px;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    margin-bottom: 20px;
+  a.nav-item{
+    color: dimgrey !important;
+    font-size: 0.9rem;
   }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.7rem;
+  h1,h2 {
+    font-size: 1.5rem;
   }
 
   h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   h4  {
@@ -220,14 +267,16 @@
   <div class="container-fluid">
     <nav class="navbar navbar-expand-md navbar-light">
 
-      <a href="/" class="navbar-brand align-items-left">
-        <img src="/apple-touch-icon.png" alt="Ayazda bir kertenkele"/>Burak Altundal
+      <a href="/" class="navbar-brand align-items-left inverse">
+        <img class="buyucu-art" src="/buyucu.svg" alt="Ayazda bir kertenkele"/>burak altundal
+
+        
+        <div class="buyucu">
+           büyücü
+        </div>
+      
       </a>
       
-        <div class="description">
-          &bull; büyücü
-        </div>
-        
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation" name="button">
@@ -237,12 +286,11 @@
       <div class="collapse navbar-right navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           
+            <a class="inverse nav-item nav-link " href="/kategori/">Kategoriler</a>
           
-            <a class="nav-item nav-link " href="/kategori/">Kategoriler</a>
+            <a class="inverse nav-item nav-link " href="/kim/">Kim?</a>
           
-            <a class="nav-item nav-link " href="/kim/">Kim?</a>
-          
-          <a class="nav-item nav-link" href="https://www.burakaltundal.com/index.xml" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
+          <a class="inverse nav-item nav-link" href="https://www.burakaltundal.com/index.xml" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
         </div>
       </div>
 
@@ -261,11 +309,11 @@
                     </i>
             </h2>
             <div>
-                <p><blockquote>
-<p><img src="/images/eda-dereci-sokak.jpg" alt="İllüstrasyon Eda Dereci"> <a href="https://www.instagram.com/p/CCiq7cCAtO7">İllüstrasyon ve fotoğraf Eda Dereci</a></p>
-</blockquote>
+                <p><div class="post-picture"><img  src="/images/eda-dereci-sokak.jpg" alt="[İllüstrasyon Eda Dereci](https://www.instagram.com/p/CCiq7cCAtO7)" /><em><a href="https://www.instagram.com/p/CCiq7cCAtO7">İllüstrasyon Eda Dereci</a></em></div>
+
+
 <blockquote>
-<p><em>‘Dersimiz Aşk, konular Haydutluk ve Sarışınlık’  *</em></p>
+<p>‘Dersimiz Aşk, konular Haydutluk ve Sarışınlık’ *</p>
 </blockquote>
 <p>Akşam üstü son kez vaktiyle seni beklediğim sokağa baktım. Motosikleti çalıştırmadan önceki an, seninle aynı zamanda çıkmışızdır belki. Sol mememin altında bir belki. Ne güzel şeyler. Bu sokağa tekrar geleceğim ama bir daha hiç böyle bakmayacağım. Bütün hikayelerin kendi zamanları, bağlamları var. O bağlamdan ve zamandan da çıkıyorum eve giderken<a href="https://www.youtube.com/watch?v=Z1dIRjazpBw">(bininci adım)</a>. Seninle ilgili her şey bir anımsamaya, burukluğa dönüşüyor. Buruk bir gülümsemeye dönüşmüyor. Sokaktan geriye sadece kendi hissettiklerimin güzelliği kaldı. Keşke seni de güzel hatırlayabilseydim.</p></p>
                 
@@ -282,7 +330,7 @@
 
 <footer>
   <small>
-    &copy; Hakları saklı değildir, bağlantı verme nezaketini göstermeniz yeterli. Burak Altundal, 2021.
+    &copy; Hakları saklı değildir, bağlantı verme nezaketini göstermeniz yeterli. Burak Altundal, 2022. ツ
   </small>
 </footer>
 </div> 
@@ -294,5 +342,4 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
   integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>
-
 </html>

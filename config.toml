@@ -1,7 +1,6 @@
 baseURL = "https://www.burakaltundal.com/"
 languageCode = "en-us"
 title = "Burak Altundal"
-theme = ""
 enableRobotsTXT = true
 paginate = 10
 summaryLength = 10
@@ -9,7 +8,7 @@ googleAnalytics = ""
 publishDir = "docs"
 
 [taxonomies]
-	category = "kategori"
+  category = "kategori"
   tag = "etiket"
 
 [author]
@@ -19,7 +18,7 @@ publishDir = "docs"
   author = "Burak Altundal"
   description = "Burak Altundal | büyücü"
 	alias = "büyücü"
-  images = ["kertenkele.png"]
+  images = ["buyucu.png"]
 
   showReadMore = true
   email = "burak.altundal@gmail.com"

@@ -6,10 +6,33 @@
     <description>Recent content in Etiket on Burak Altundal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.burakaltundal.com/etiket/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>40 yaş</title>
+      <link>https://www.burakaltundal.com/etiket/40-ya%C5%9F/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.burakaltundal.com/etiket/40-ya%C5%9F/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://www.burakaltundal.com/etiket/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>terapi</title>
+      <link>https://www.burakaltundal.com/etiket/terapi/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.burakaltundal.com/etiket/terapi/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>çaresizlik</title>
+      <link>https://www.burakaltundal.com/etiket/%C3%A7aresizlik/</link>
+      <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.burakaltundal.com/etiket/%C3%A7aresizlik/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>kaza</title>
@@ -26,15 +49,6 @@
       <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.burakaltundal.com/etiket/yakup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>çaresizlik</title>
-      <link>https://www.burakaltundal.com/etiket/%C3%A7aresizlik/</link>
-      <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.burakaltundal.com/etiket/%C3%A7aresizlik/</guid>
       <description></description>
     </item>
     
@@ -192,20 +206,20 @@
     </item>
     
     <item>
-      <title>SSCB</title>
-      <link>https://www.burakaltundal.com/etiket/sscb/</link>
-      <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.burakaltundal.com/etiket/sscb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>şiir</title>
       <link>https://www.burakaltundal.com/etiket/%C5%9Fiir/</link>
       <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.burakaltundal.com/etiket/%C5%9Fiir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSCB</title>
+      <link>https://www.burakaltundal.com/etiket/sscb/</link>
+      <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.burakaltundal.com/etiket/sscb/</guid>
       <description></description>
     </item>
     

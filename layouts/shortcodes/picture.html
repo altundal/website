@@ -1,0 +1,3 @@
+<!-- picture -->
+<div class="post-picture"><img {{ with .Get "class" }}class="{{.}}"{{ end }} src="{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "title") }}alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "title" }}{{ end }}"{{ end }} /><em>{{ .Get "title" | markdownify }}</em></div>
+<!-- picture -->

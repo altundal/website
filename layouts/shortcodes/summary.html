@@ -1,0 +1,10 @@
+<!-- summary -->
+<div class="post-summary">
+  {{ $tmp :=  .Inner | markdownify}}
+  {{ $tmp := replace $tmp  "<p>" ""}}
+  {{ replace $tmp  "</p>" "<br/>" | safeHTML}}
+  {{ with $.Page.RelPermalink }}
+    <a class="read-more inverse" href="{{.}}">devamı...</a>
+  {{ end }}
+</div>
+<!-- summary -->
