@@ -26,7 +26,7 @@ Terapi boyunca insanın kendinden utandığı, nefret ettiği oluyor. Terapistin
 
 İnanamadığınız günlerde bile bilin ki hepsi geçiyor.
 
-Bütün bu yıllar boyunca en sık sorulan sorularla bitireyim.
+Bütün bu yıllar boyunca bana terapiyle ilgili en sık sorulan sorularla bitireyim.
 
 ### - X terapisi bir seansta (iki üç beş de olabilir) Y’yi çözüyormuş.
 
