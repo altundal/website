@@ -17,7 +17,7 @@ Yakın zamanda bir seyahatten daha döndükten sonra batıya, kültürüne, ‘�
 
 Bu akşam önüme peş peşe iki haber düştü. Biri Çin'in Laos'ta yaptığı hızlı tren ile ilgili [Reuters'in haberi](https://twitter.com/Reuters/status/1659186393577291776). Diğeri de bizzat ABD başkanı Joe Biden'ının [paylaştığı video](https://twitter.com/POTUS/status/1659612416756400143).
 
-Joe Biden paylaştığı videoda Japonya'daki Hiroşima Barış Anıtı'na çelenk bırakıyor. ABD’nin attığı nükleer bomba için yapılan anıta ABD başkanı çelenk bırakıyor. Katil hiçbir şey olmamış gibi olay mahaline geliyor ve öldürdüklerini, öldürdükleriyle birlikte anıyor. 70 bin kişi Hiroşima’da, 40 bin kişi Nagazaki’de öldü. Sakat kalanlar, sakat doğanlar hariç.
+Joe Biden'ın paylaştığı videoda Japonya'daki Hiroşima Barış Anıtı'na çelenk bırakıyor. ABD’nin attığı nükleer bomba için yapılan anıta ABD başkanı çelenk bırakıyor. Katil hiçbir şey olmamış gibi olay mahaline geliyor ve öldürdüklerini, öldürdükleriyle birlikte anıyor. 70 bin kişi Hiroşima’da, 40 bin kişi Nagazaki’de öldü. Sakat kalanlar, sakat doğanlar hariç.
 
 Reuters’in haberine göre Çin, Laos’ta hızlı tren inşa ederek insanlığı bir kere daha pandemi riskiyle karşı karşıya bırakıyor. Bence sadece başlığı çevirmem yeterli ama siz merak ediyorsanız batılı bilim insanları ve dünyanın en özgür ajanslarından biri, trenle pandemi ilişkisini nasıl da görmüş detaylıca okuyabilirsiniz. Çevirip kendimi yoramayacağım.
 
