@@ -4,7 +4,7 @@ date: "2023-05-19"
 when: "19.05.2023"
 where: "Kadıköy, İstanbul"
 images: ["/images/hirosima.jpg"]
-description: "Japonlar çok gururlu insanlardır…"
+description: "Gerçek nedir, tren nasıl pandemiye sebep olabilir, gururlu insanlar neden kendi katillerini alkışlıyor?"
 etiket: ["tekno politik", "batı", "özgür basın"]
 kategori: ["yazı"]
 ---
