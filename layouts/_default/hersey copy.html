@@ -1,0 +1,98 @@
+{{ define "content" }}
+<div class="blog-post">
+  <script>
+    var current = window.location.href;
+    var tit = document.title;
+    function isMobile(){
+      const notMobile = document.getElementById('not-mobile')
+        if(getComputedStyle(notMobile).display == 'none'){
+          return true
+        }
+        return false
+    }
+
+    window.addEventListener("popstate", (event) => {
+      console.log('pop state?')
+      if(isMobile()){
+          return
+        }
+        
+       closeFrame(event)
+    });
+
+
+    function openInFrame(ev){
+        if(isMobile()){
+          return
+        }
+        ev.preventDefault()
+        ev.stopPropagation()
+
+        const link = ev.target.href;
+        window.history.pushState({fromMe: true}, ev.target.innerHTML, link);
+        document.getElementById('modal').style.display='flex';
+        const f = document.createElement('iframe')
+        f.style = 'width: 70%;height: 80%;'
+        f.addEventListener('load',opened)
+        f.id='frame'
+        f.src = link;
+        document.getElementById('modal').appendChild(f)
+    }
+
+    function closeFrame(ev){
+      console.log(ev.target)
+        if(ev){
+          ev.preventDefault()
+          ev.stopPropagation()
+          window.history.replaceState(null, tit, current);
+        }
+
+        document.getElementById('modal').style.display='none';
+        document.getElementById('modal').removeChild(document.getElementById('frame'))
+    }
+
+    function opened(ev){
+        const d = document.getElementById('frame').contentDocument;
+        d.body.innerHTML= d.body.innerHTML + '<style> .navbar,#hersey-link{display:none;}.blog-post{padding:20px;} .post-picture img{max-width:50%;}</style>'
+    }
+  </script>
+  <style>
+
+  @media screen and (max-device-width: 767px) and (orientation: portrait) {
+    #not-mobile { display: none; }
+    #hersey-grid { grid-template-columns: repeat(1, 1fr) !important; }
+    #hersey-grid img { width: 100% !important; height: auto !important; }
+    #hersey-grid a { padding: 10px 10px !important; }
+  }
+  </style>
+  <h1>
+    {{ .Title }}
+    <i class="when-post">{{ .Params.When }}</i>
+    </h1>
+
+    <div class="blog-post-content" style="margin-bottom: 0;">
+      {{ .Content }}
+    </div>
+    
+    <div id="hersey-grid" style="display: grid;grid-template-columns: 250px 250px 250px; column-gap: 15px; row-gap: 25px; align-items: center;">
+      
+      {{ range where site.RegularPages "Section" "=" "hersey" }}
+        <div style=" position: relative;overflow: hidden; border-radius: 8px; ">
+          <h2 style="font-size: 14px; font-weight: 600; position: absolute; left:0; top:47%; width: 100%; background-color: rgba(0,0,0,0.6); z-index: 1;">
+            <a onclick="openInFrame(event)" href="{{ .Permalink }}" class="inverse" style="white-space: nowrap;  text-overflow: ellipsis; display: block;  overflow: hidden;color:#fff !important;  text-align: center; padding: 5px 10px;">
+            {{ .Title }} 
+            </a>
+        </h2>
+          {{ range .Params.Images }}
+            <img style="width: 250px;height: 250px; object-fit: cover; opacity: 0.7;" src="{{ . }}" alt=""/>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+
+    <div id="not-mobile" style="height:1px; width:1px; opacity: 0;"></div>
+    <div onclick="closeFrame(event)" id="modal" style="display: none; z-index: 100; position: fixed; top:0;left:0; overflow: hidden; width: 100%;height: 100%;background-color: rgba(0,0,0,0.6); align-items: center; justify-content: center;">
+      
+    </div>
+</div>
+{{ end }}

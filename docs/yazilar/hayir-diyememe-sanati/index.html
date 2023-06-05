@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <title>
+      Hayır diyememe sanatı &bull; Burak Altundal
+    
+  </title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#161819">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.burakaltundal.com/images/hayiiiir-munch.jpg"/>
+
+<meta name="twitter:title" content="Hayır diyememe sanatı"/>
+<meta name="twitter:description" content="‘Hayır demek’ deyince insanın aklına ilk kişisel gelişim şeyleri geliyor. Accık da  ‘nasıl da kişisel gelişemedik?’ onları mı konuşsak. Şaka şaka :). Hayır demenin toplumsal zorlukları ile ilgili biraz dert yanmaya geldim. "/>
+
+  
+
+  <style>
+  :root{
+    --main-color: #333745;
+    --active-color: #e63462;
+    --buyucu-color: #e63462;
+    --border-color: #eef5db;
+  }
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    margin: auto;
+    color: var(--main-color);
+    max-width: 50em;
+  }
+
+  a{
+    color: var(--active-color);
+  }
+  
+  a:hover,a:active,a:focus{
+    color: var(--main-color);
+    text-decoration: none;
+  }
+
+  a.inverse{
+    color: var(--main-color) !important;
+  }
+  
+  a.inverse:hover,a.inverse:active,a.inverse:focus{
+    color: var(--active-color) !important;
+  }
+
+  .read-more{
+    font-weight: normal;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .post-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .post-footer .read-more{
+    align-self: flex-end;
+  }
+
+  .paginator-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .when{
+    font-size: 0.9rem;
+    font-weight: normal;
+  }
+
+  .when-post{
+    float: right;
+    text-align: right;
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+
+  article{
+    margin-bottom: 15px;
+  }
+  
+   .blog-post-content,.post-summary{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: 300; 
+    
+  }
+
+  .post-footer{
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+  }
+
+  .blog-post-content {
+    min-height: 150px;
+    margin-bottom: 20px;
+  }
+
+  .post-picture{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 0.9rem;
+  }
+
+  .post-picture em{
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .post-picture img{
+    display: block;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .blog-post-content img, article img{
+    display: block;
+    max-width: 75%;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar-brand{
+    font-size: 24px;
+    display: flex;
+    align-items:center;
+    position: relative;
+  }
+  
+  .navbar-brand img{
+    max-height: 40px;
+  }
+
+  .buyucu{
+    font-size: 0.75rem;
+    position: absolute;
+    right: -32px;
+    bottom: 0;
+    color: var(--buyucu-color);
+  }
+
+  .buyucu-art{
+    margin-right: 10px;
+  }
+
+  .navbar-brand:hover .buyucu,.navbar-brand:hover img{
+    color: var(--main-color);
+    
+  }
+
+  blockquote {
+    margin: 10px 0;
+    font-size: 0.9em;
+    font-style: italic; 
+  }
+
+  blockquote em{
+    display: block;
+    text-align: left;
+  }
+
+  .posts-listing li {
+    list-style-type: none;
+  }
+
+  
+
+  .navbar {
+    padding: 5px 0 0 0;
+    margin-bottom: 25px;
+    margin-top: 0;
+    border-bottom: 1px solid var(--border-color);
+    justify-content: space-between;
+  }
+
+  .navbar-right{
+    flex-grow: 0 !important;
+  }
+
+  .not-found{
+    text-align: center;
+  }
+
+  .date-time-title{
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .date-share a{
+    color: dimgrey;
+    font-size: 10px;
+  }
+
+  a.nav-item{
+    color: dimgrey !important;
+    font-size: 0.9rem;
+  }
+  h1,h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  h4  {
+    font-size: 1.2rem;
+  }
+
+  h5  {
+    font-size: 1rem;
+  }
+
+  h6  {
+    font-size: 0.8rem;
+  }
+
+  code {
+    font-family: 'Ubuntu Mono', monospace;
+    white-space: pre;
+    overflow-x: auto;
+  }
+
+  pre {
+    overflow-x: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background-color: #efefef
+  }
+
+  footer  {
+    text-align: center;
+    margin: 15px auto;
+  }
+</style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-light">
+
+      <a href="/" class="navbar-brand align-items-left inverse">
+        <img class="buyucu-art" src="/buyucu.svg" alt="Ayazda bir kertenkele"/>burak altundal
+
+        
+        <div class="buyucu">
+           büyücü
+        </div>
+      
+      </a>
+      
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation" name="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-right navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          
+            <a class="inverse nav-item nav-link " href="/kategori/">Kategoriler</a>
+          
+            <a class="inverse nav-item nav-link " href="/kim/">Kim?</a>
+          
+          <a class="inverse nav-item nav-link" href="https://www.burakaltundal.com/index.xml" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
+        </div>
+      </div>
+
+    </nav>
+
+<div class="blog-post">
+  <h1>
+    Hayır diyememe sanatı
+    <i class="when-post"
+      >05.06.2023, Kadıköy, İstanbul 
+    </i>
+  </h1>
+  <div class="blog-post-subheader">
+    
+  </div>
+  <div class="blog-post-content">
+    <div class="post-picture"><img  src="/images/hayiiiir-munch.jpg" alt="Edvard Munch, Çığlık ya da diğer adıyla Hayıııır :) " /><em>Edvard Munch, Çığlık ya da diğer adıyla Hayıııır :)</em></div>
+
+
+<p>‘Hayır demek’ deyince insanın aklına ilk kişisel gelişim şeyleri geliyor. Accık da  ‘nasıl da kişisel gelişemedik?’ onları mı konuşsak. Şaka şaka :). Hayır demenin toplumsal zorlukları ile ilgili biraz dert yanmaya geldim.</p>
+<p>Önümüzdeki hafta yeğenim garaguzunun dördüncü yaş günü var. Henüz farkında olmasa da hayatımdaki en önemli kişilerden biri kendisi.  Ama bebişlerin doğumgünleri kendilerinden ziyade ebeveynleri için daha önemli malum. Doğum günü ile dans dersim aynı güne denk geliyor. İşim, gücüm, toplantım değil de dans dersim. Eskiden olsa ben de hiç düşünmez, nasılsa dans dersine katılmasam da olur derdim. Artık demiyorum, sevdiğim, önemsediğim şeyleri elimden geldiği kadar önceliklendiriyorum. Vakit ayırmaya çalışıyorum.</p>
+<p>Günlük hayatın içinde bir çok şeye ‘makul’ gerekçelerle hayır demek çok kolay. İş olur, sağlık olur.  Bir sürü insanın bu kadar meşgul olması, zaman zaman hasta olması biraz da bu yüzden mi acaba diye sormuyorum değilim. İşiniz olunca hadi ya yapacak bir şey yok deniyor, dans olunca gelmem bekleniyor tabii. Daha kötüsü misal ‘Kendimle vakit geçirmek istiyorum’ demek.  Makullük kişinin kendi önemsediği şeylerle, hallerle ilgili olunca hayır demenin bedeli genelde ağır oluyor. Başkasına bir zararı olmasa hatta yararı olsa bile.</p>
+<p>Aklıma değişik değişik bir çok örnek geliyor. İş hayatında gereksiz yere uzamış bir toplantının bitirilmesini isteyemiyoruz. Vaktimizi harcamaktan başka bir işe yaramayacağını bildiğimiz toplantılara ben katılmayayım diyemiyoruz. Keyif almayacağınızı bildiğimiz halde bazı sosyalliklere katılmamak olmuyor.</p>
+<p>Bütün ilişkilerimizde(iş, aile, arkadaş, sevgili) tarifi belirsiz bir uyumluluk* beklentisi var.  Alışmışlık, kültür ..vs içinde neler varsa. Bırakın sadece kendi istediğiniz bir şey için hayır demiş olmayı, iyi bir şey için bile hayır diyerek o uyumdan uzaklaştığınızda sesli ya da sessiz cezalandırılıyoruz. Hayır demek, sınır koymak insanın bireysel bir ihtiyacı. İlla ki uğraşacak, koyacak ama kültürümüz hayır demeye o kadar duyarlı ki(karşı mı demeli?), ne olursa olsun ilk tepki her zaman allerjik oluyor. Sanki insanlardan oluşan ilişkiler bütünü değiliz de, sadece koyulduğu yerde düzgünce durması gereken yap-boz parçalarıyız. Kim yerinden azıcık oynasa bütün yap-boz isyana kalkıyor ‘uyum’ bozuluyor diye. İnsan daha çok farklı biçim ve renklerde lego parçalarına benziyor bence. Kutusunun üzerinde önerilen şekillerde ömür boyu kalmak yerine, birlikte farklı farklı  şekiller yapabilmek, zamanla bu şekillerin, uyumların değiştiği, kendisi ve ilişkileri için daha iyisini, daha keyiflisini aradığı.</p>
+<p>Bir süredir elimden geldiği kadar düzgünce ve sevdiğim insanları da gözeterek eskiden hayır demediğim bir çok şeye hayır demeye başladım. Hayır demeye başladıkça daha mutlu bir insan olacağımı sanıyordum :). Ama hayır demek bir tarafıyla bireysel bir faaliyet değilmiş. Alışılmışlığın dışına çıkıncaya kadar kültürle de mücadele etmek zorunda kalıyormuş insan.</p>
+<p>*‘Bu uyum korkunçtur Yakup!’, Edip Cansever.</p> 
+    <time>05/06/2023 tarihinde yayınlandı.</time>
+    
+  </div>
+</div>
+
+<footer>
+  <small>
+    &copy; Hakları saklı değildir, bağlantı verme nezaketini göstermeniz yeterli. Burak Altundal, 2023. ツ
+  </small>
+</footer>
+</div> 
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+  integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
