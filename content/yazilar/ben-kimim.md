@@ -3,13 +3,13 @@ title: "Şeyler 1: Burak Altundal kimdir?"
 date: "2023-06-15"
 when: "15.06.2023"
 where: "Kadıköy, İstanbul"
-images: ["/images/cehennemin-kapilari.jpg"]
+images: ["/images/ben-guzel-gulerken.jpg"]
 description: "Şeyler'e dair başka ne anlatacağıma dair net bir fikrim yok ama anlatmaya devam edeceğim. Kendi kişisel hikayemin en açık hali tabi bu en başta. O yüzden anlatması hem zor hem de garip. Anlattığım benim hikayem ama anlatılan sizin de hikayeniz. Başına benzer şeyler gelenler, tanıklık edenler, kafasını yana çevirenler..."
 etiket: ["şeyler","kim", "yeni hayat"]
 kategori: ["yazı"]
 ---
 
-{{< picture src="/images/cehennemin-kapilari.jpg" title="Cehennemin Kapıları(detay), Auguste Rodin" >}}
+{{< picture src="/images/ben-guzel-gulerken.jpg" title="[Sağdaki ben, güzel gülerken](https://www.instagram.com/p/COVhNi1ApNY/)" >}}
 
 _'Şeyler'e dair başka ne anlatacağıma dair net bir fikrim yok ama anlatmaya devam edeceğim. Kendi kişisel hikayemin en açık hali tabi bu en başta. O yüzden anlatması hem zor hem de garip. Anlattığım benim hikayem ama anlatılan sizin de hikayeniz. Başına benzer şeyler gelenler, tanıklık edenler, kafasını yana çevirenler..._
 
