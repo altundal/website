@@ -1,0 +1,33 @@
+{{ define "content" }}
+<section>
+  <div class="blog-post">
+  <h1>{{.Page.Title}} </h1>  
+  <div class="blog-post-content">
+    {{.Page.Content}}
+  </div>
+  <hr/>
+  </div>
+    {{ range .Page.Pages}}
+    <article>
+      <h2 style="width: 100%;">
+          <a href="{{ .Permalink }}" class="inverse" >
+              {{ .Title }}  
+          </a>
+          
+            <i class="when-post">{{ .Params.When }}{{ if .Params.Where }}, {{ .Params.Where }}
+                {{ end }}</i>
+      </h2>
+      
+      <div class="post-summary">    
+          {{ $tmp := replace .Summary "\n" "" }}
+          {{ $tmp := replace $tmp  "</p><p>" "<br/><br/>"}}
+          {{ replace $tmp  "</p>" "" | safeHTML}}
+          
+          <a class="read-more inverse" href="{{.RelPermalink}}">devamı...</a>
+      </div>
+      
+  </article>
+    {{ end }}
+  
+</section>
+{{ end }}

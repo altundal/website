@@ -60,7 +60,7 @@
           {{ range .Site.Menus.main }}
             <a class="inverse nav-item nav-link {{ if eq $.RelPermalink .URL}}active{{ end }}" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
           {{ end }}
-          <a class="inverse nav-item nav-link" href="{{ .Site.RSSLink }}" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
+          
         </div>
       </div>
 
