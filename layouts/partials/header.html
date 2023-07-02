@@ -48,14 +48,9 @@
         </div>
       {{ end }}
       </a>
-      
+    
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation" name="button">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-right navbar-collapse" id="navbarNavAltMarkup">
+      <div class=" navbar-right" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           {{ range .Site.Menus.main }}
             <a class="inverse nav-item nav-link {{ if eq $.RelPermalink .URL}}active{{ end }}" href="{{ .URL | relLangURL }}">{{ .Name }}</a>

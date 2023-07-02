@@ -258,6 +258,15 @@
     text-align: center;
     margin: 15px auto;
   }
+  .navbar-expand-md .navbar-nav {
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+  }
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
+  }
 </style>
 </head>
 
@@ -274,14 +283,9 @@
         </div>
       
       </a>
-      
+    
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation" name="button">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-right navbar-collapse" id="navbarNavAltMarkup">
+      <div class=" navbar-right" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           
             <a class="inverse nav-item nav-link active" href="/kim/">kim?</a>
