@@ -1,5 +1,5 @@
 ---
-title: "Şeyler 1: Burak Altundal kimdir?"
+title: "Şeyler 1: Ben kimim?"
 date: "2023-06-15"
 when: "15.06.2023"
 where: "Kadıköy, İstanbul"
