@@ -1,9 +1,8 @@
 ---
 title: "Şeyler'e dair"
-date: "2023-06-15"
-when: "15.06.2023"
+date: "2023-07-02"
+when: "02.07.2023"
 where: "Kadıköy, İstanbul"
-images: ["/images/ben-guzel-gulerken.jpg"]
 description: "Şeyler'e dair başka ne anlatacağıma dair net bir fikrim yok ama anlatmaya devam edeceğim. Kendi kişisel hikayemin en açık hali tabi bu en başta. O yüzden anlatması hem zor hem de garip. Anlattığım benim hikayem ama anlatılan sizin de hikayeniz. Başına benzer şeyler gelenler, tanıklık edenler, kafasını yana çevirenler..."
 etiket: ["şeyler", "yeni hayat"]
 
