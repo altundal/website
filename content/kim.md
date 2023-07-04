@@ -1,5 +1,6 @@
 ---
 title: Bayandan az kullanılmış ev erkeği
+description: "Burak Altundal kimdir?"
 ---
 
  
