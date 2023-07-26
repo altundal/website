@@ -8,7 +8,7 @@ etiket: ["şeyler", "yeni hayat"]
 
 ---
 
-Şeyler'e dair başka ne anlatacağıma dair net bir fikrim yok ama anlatmaya devam edeceğim. 'Şeyler' kişisel hikayemin en açık hali. O yüzden anlatması hem zor hem de garip. Uzun uzun düşündüm bunları. Tekrar tekrar anlatmak istemediğim ve hiç anlatılmamış olmasına katlanamadığım şeyleri anlatacağım. Yazması zor, yayınlaması ise baya karma karışık bir duygu. Sonunda bana huzur mu verir yoksa daha çok huzursuzluk mu ya da çaresizlik mi bilemiyorum.
+Şeyler'e dair başka ne anlatacağımla ilgili net bir fikrim yok ama anlatmaya devam edeceğim. 'Şeyler' kişisel hikayemin en açık hali. O yüzden anlatması hem zor hem de garip. Uzun uzun düşündüm bunları. Tekrar tekrar anlatmak istemediğim ve hiç anlatılmamış olmasına katlanamadığım şeyleri anlatacağım. Yazması zor, yayınlaması ise baya karma karışık bir duygu. Sonunda bana huzur mu verir yoksa daha çok huzursuzluk mu ya da çaresizlik mi bilemiyorum.
 
 Şeyler'i diğer yazılarımdan ayrı bir bölüme koydum ve genellikle duyurusunu yapmıyorum. Okumasını istediklerimle yazdıkça paylaşıyorum. Ayrıca merak edenlerin isterlerse baktıkları yarı kişisel bir alan. Sanıyorum öyle de kalacak.
 
