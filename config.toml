@@ -36,8 +36,3 @@ publishDir = "docs"
 	url = "/kim/"
 	weight = 1
 
-[[menu.main]]
-	identifier = "seyler"
-	name = "şeyler"
-	url = "/seyler"
-	weight = 1 
