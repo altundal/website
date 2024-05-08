@@ -14,7 +14,7 @@ draft: true
 
 İki tam yıl geçmiş yarım kalmış her şeyin üstünden  
 Ne içine bakabildim açtığım deliklerin  
-Ne de dünyaya deliklerden  
+Ne de dünyaya baktım açtığım deliklerden  
 Bugün ilk defa  
 Keşke hiç çıkmasaydım o yola  
 Meadowbank’ta bir parkta  

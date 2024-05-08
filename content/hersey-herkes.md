@@ -1,9 +1,11 @@
 ---
-title: Herşey herkesin gözü önünde oldu
+title: Yüklük
 layout: hersey
-when: "01.06.2023, İstanbul"
+when: "18.04.2024, İstanbul"
 draft: true
 ---
+
+> Her şey herkesin gözü önünde oldu. \*
 
 19 Ağustos 2016'da Kireçburnu parkında olmayacak bir şeyi beklerken iç sıkıntısından *"Uh! Sana buranın hikayesini anlatmış mıydım?"* diye bir yorum yazdım kendi fotoğrafımın altına. İçim sıkıldıkça bir şeyler eklemeye devam ettim. Bu böyle devam etti. Üzerine düşünmeden, içim sıkıldıkça eklediğim kişisel notlar. Yaptıkça bir çeşit günce tutmaya dönüştü. Herkese açık bir ortamda parçalar halinde kişisel yaşamımı yaşandığı gibi anlattım. Hiçbir zaman düşünerek, planlayarak bir şey yazmadım. Hepsi yazıldığı gün başıma gelenler, hissettiklerim oldu. Dikkat ettiğim tek şey özel hayata saygımdan dolayı kişilerin adlarını anmamak oldu. 
 

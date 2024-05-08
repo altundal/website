@@ -41,4 +41,3 @@ Taş yanar,  belki de bilmiyorlar.
 Taş yanar, kırılır, çatlar  
 Taş hatırlar  
 Hiyeroglif diyorlar  
-Taş hatırlar

@@ -21,7 +21,7 @@ Bu hikayenin de anlatılacak vakti geldi
 Hepsinden önce çiçek verenleriniz çok olsun  
 Böyle güzel sevenleriniz çok olsun  
 İnsan insanı nasıl da sevemiyor  
-İnsan insanı nasıl bu kadar yanlış seviyor  
+İnsan insanı nasıl da yanlış seviyor  
 Herkesin hastalığı kendinde  
 Beni senden götüren şeyle  
 Beni başkasına götüren şey aynı şey  

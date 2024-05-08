@@ -1,21 +1,22 @@
 {{ define "content" }}
 <div class="blog-post">
   <style></style>
-  <h1>{{ .Title }} 
-    <a href="/hersey-herkes" id="hersey-link"><i class="when-post">{{ .Params.When }} Herşey herkesin gözü önünde oldu.</i></a></h1>
+  <h1>{{ .Title }}
+    <a href="/hersey-herkes" id="hersey-link"><i class="when-post">{{ .Params.When }} Yüklük.</i></a>
+  </h1>
   <div class="blog-post-subheader">
     {{if .Params.tags}}
-      {{ range .Params.tags }}
-        <a class="tag" href="/tags/{{ . | urlize }}">#{{.}}</a>
-      {{ end }}
+    {{ range .Params.tags }}
+    <a class="tag" href="/tags/{{ . | urlize }}">#{{.}}</a>
+    {{ end }}
     {{ end }}
   </div>
   <div class="blog-post-content">
     {{ .Content }}
     {{ if .Date }}
-      <time>{{ .Date.Format "02/01/2006" }} tarihinde yayınlandı.</time>
+    <time>{{ .Date.Format "02/01/2006" }} tarihinde yayınlandı.</time>
     {{ end }}
   </div>
-  
+
 </div>
 {{ end }}

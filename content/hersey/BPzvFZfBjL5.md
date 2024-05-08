@@ -45,12 +45,12 @@ ilk üçünü de allah vermemişti
 elimde bir çakı var  
 durmadan ucumu sivriltiyorum  
 bileylenmek bıçağın eksilmesidir.  
-bütün bıçakların gurur duyduğu keskinlik, kesebilmek.  
+bütün bıçakların gurur duyduğu keskinlik.  
 hep öyle kalabilmek  
-bıçakların ödediği en ağır bedeldir, keskinlik  
+bıçakların ödediği en ağır bedeldir  
 kendi sonlarına götürür bıçakları usul usul  
-"yazdıkça eksilen bir şiir düşün sevgilim"  
-"yazdıkça kendi sonuna giden"  
+"yazdıkça eksilen bir şiir düşün sevgilim  
+yazıldıkça kendi sonuna giden"  
 ne kadar çok kesersen, o kadar çok eksilirsin  
 bu bir bıçağın alınyazısıdır  
 bir insanın da  

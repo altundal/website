@@ -26,9 +26,9 @@ Motoru eve götürdüm
 Sonra kendimi hastaneye götürdüm  
 Eve getirdim  
 Bu kadar kendilik  
-Korkunç ne Yakup  
+Korkunç be Yakup  
 Eskiden olsa gurur duyardım  
 Artık üzülüyorum  
-Çok üzülüyorum ne Yakup  
+Çok üzülüyorum be Yakup  
 Biz bunları niye öğrendik ki  
 Bize bunları niye öğrettiler Yakup
